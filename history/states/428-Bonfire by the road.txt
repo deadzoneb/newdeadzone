@@ -1,0 +1,12 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		1134 2003 2118 2343 3008 3152 3401 3494 3562 3866 4772 5941 7442 7556 10523 10532 10551 10573 10625 10649 10657 10695 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = NTS
+		add_core_of = NTS
+}

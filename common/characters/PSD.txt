@@ -1,0 +1,16 @@
+characters = {
+	PSD_Patriot = { #PSD
+		name = PSD_Patriot 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PSD_Patriot"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "1944.1.1.1"
+			id = -1
+		}	
+	}
+}

@@ -1,0 +1,13 @@
+state={
+	id=488
+	name="STATE_488"
+	provinces={
+		369 548 1398 1576 1586 1779 2151 2636 3269 3757 6158 6315 7190 8326 10733 10735 10736 10807 10837 10841 10884 
+	}
+	manpower = 35
+	state_category = rural
+	history={
+		owner = VSD
+		victory_points = { 6315 30 }
+		add_core_of = VSD
+}

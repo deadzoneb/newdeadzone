@@ -1,0 +1,16 @@
+characters = {
+	ECO_Saharov = { #ECO
+		name = ECO_Saharov
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_ECO_Saharov"
+			}
+		}
+		country_leader = {
+			ideology = scientists
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

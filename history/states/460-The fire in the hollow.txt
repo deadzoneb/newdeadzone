@@ -1,0 +1,12 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		567 2988 3867 4320 4900 4965 5623 5775 5940 6033 6706 10604 10658 10660 10667 10678 10738 10752 10836 
+	}
+	manpower = 9
+	state_category = rural
+	history={
+		owner = VSD
+		add_core_of = VSD
+}

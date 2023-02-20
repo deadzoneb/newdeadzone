@@ -1,0 +1,13 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		566 812 2084 2534 2845 5096 5396 6571 6766 7953 8055 10369 10400 10415 10434 10454 
+	}
+	manpower = 16
+	state_category = rural
+	history={
+		owner = PSY
+		victory_points = { 2534 12 }
+		add_core_of = PSY
+}

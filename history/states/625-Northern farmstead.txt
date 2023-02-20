@@ -1,0 +1,13 @@
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		181 1208 2188 2380 2564 2583 2823 5029 5918 6524 6915 11238 11300 11338 11360 
+	}
+	manpower = 14
+	state_category = rural
+	history={
+		owner = REN
+		victory_points = { 181 10 }
+		add_core_of = REN
+}

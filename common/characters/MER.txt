@@ -1,0 +1,16 @@
+characters = {
+	MER_Volkodav = { #MER
+		name = MER_Volkodav
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_MER_Volkodav"
+			}
+		}
+		country_leader = {
+			ideology = mercenaries
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

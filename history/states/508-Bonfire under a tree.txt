@@ -1,0 +1,12 @@
+state={
+	id=508
+	name="STATE_508"
+	provinces={
+		1014 1561 2557 3922 5760 6665 6783 7717 10922 10971 10978 11015 11095 
+	}
+	manpower = 4
+	state_category = rural
+	history={
+		owner = NTS
+		add_core_of = NTS
+}

@@ -1,0 +1,16 @@
+characters = {
+	YAG_Yoga = { #YAG
+		name = YAG_Yoga
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_YAG_Yoga"
+			}
+		}
+		country_leader = {
+			ideology = bandits
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

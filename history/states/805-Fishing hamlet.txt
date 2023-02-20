@@ -1,0 +1,14 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		657 965 2375 2622 3048 4582 4796 5188 6007 8187 8390 12075 
+	}
+	manpower = 18
+	state_category = rural
+	history={
+		owner = CRS
+		victory_points = { 657 15 }
+		add_core_of = CRS
+}
+

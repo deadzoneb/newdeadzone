@@ -1,0 +1,12 @@
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		1732 2053 2765 2809 2993 4025 5554 5629 6668 7480 7933 7938 8195 10514 10668 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = PSY
+		add_core_of = PSY
+}

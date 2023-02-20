@@ -1,0 +1,16 @@
+characters = {
+	OCS_Kruk = { #OCS
+		name = OCS_Kruk
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_OCS_Kruk"
+			}
+		}
+		country_leader = {
+			ideology = renegades
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

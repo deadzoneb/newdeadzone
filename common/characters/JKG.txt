@@ -1,0 +1,16 @@
+characters = {
+	JKG_Valet = { #JKG
+		name = JKG_Valet
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_JKG_Valet"
+			}
+		}
+		country_leader = {
+			ideology = bandits
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
