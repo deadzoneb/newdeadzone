@@ -1,0 +1,12 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		749 1058 1215 2502 2900 4614 7179 7755 8308 
+	}
+	manpower = 4
+	state_category = rural
+	history={
+		owner = REN
+		add_core_of = REN
+}
