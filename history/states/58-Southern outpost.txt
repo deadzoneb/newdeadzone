@@ -1,0 +1,12 @@
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		662 1458 2104 3009 3041 3818 4785 5274 5560 5631 6263 6696 6856 6941 7166 7686 8564 8897 8934 8941 8960 8973 8983 8989 8997 9001 9018 9032 
+	}
+	manpower = 14
+	state_category = rural
+	history={
+		owner = SIN
+		add_core_of = SIN
+}

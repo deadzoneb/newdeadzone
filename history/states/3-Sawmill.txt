@@ -1,0 +1,13 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		905 1513 2659 2949 3822 4196 4662 5218 5989 6219 7180 7389 7932 8267 8397 8648 8653 8654 8655 8659 
+	}
+	manpower = 36
+	state_category = rural
+	history={
+		owner = HTS
+		victory_points = { 8648 30 }
+		add_core_of = HTS
+}

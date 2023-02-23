@@ -1,0 +1,12 @@
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		97 1085 1367 1651 2403 3463 3591 3609 4760 5222 5496 5980 6361 6848 7948 8439 8858 8866 8883 8889 8893 8920 
+	}
+	manpower = 8
+	state_category = rural
+	history={
+		owner = FRE
+		add_core_of = FRE
+}

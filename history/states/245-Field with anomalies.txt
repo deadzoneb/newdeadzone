@@ -1,0 +1,12 @@
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		776 2815 3225 3619 3831 4500 4547 4640 4693 4755 5271 5542 6063 6070 6621 7904 9728 9736 9772 9782 9791 9849 9862 
+	}
+	manpower = 5
+	state_category = rural
+	history={
+		owner = SRG
+		add_core_of = SRG
+}

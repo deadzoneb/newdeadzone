@@ -119,4 +119,9 @@ spriteTypes = {
 		name = "GFX_portrait_JKG_Valet"
 		texturefile = "gfx/leaders/JKG/JKG_Valet.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_SRG_Snooper"
+		texturefile = "gfx/leaders/SRG/SRG_Snooper.dds"
+	}
 }

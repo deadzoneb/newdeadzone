@@ -1,0 +1,13 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		871 1292 1314 1797 2008 2345 2814 3176 3593 4767 6198 6355 7360 8649 8650 8658 8663 
+	}
+	manpower = 25
+	state_category = rural
+	history={
+		owner = MDS
+		victory_points = { 8649 15 }
+		add_core_of = MDS
+}

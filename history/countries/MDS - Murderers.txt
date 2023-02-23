@@ -1,4 +1,4 @@
-capital = 6
+capital = 4
 
 oob = "MDS_2005"
 

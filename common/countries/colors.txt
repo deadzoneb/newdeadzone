@@ -73,4 +73,7 @@ ZSD = {
 PSD = {
 	color = rgb { 175  100  25 }
 	color = rgb { 175  100  25 }
+SRG = {
+	color = rgb { 37  39  35 }
+	color = rgb { 37  39  35 }
 }

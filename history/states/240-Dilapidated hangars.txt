@@ -1,0 +1,12 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		336 3498 3713 4432 4443 4794 5518 6170 7891 9672 9706 9751 9805 
+	}
+	manpower = 8
+	state_category = rural
+	history={
+		owner = SRG
+		add_core_of = SRG
+}

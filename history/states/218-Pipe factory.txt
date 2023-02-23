@@ -1,0 +1,13 @@
+state={
+	id=218
+	name="STATE_218"
+	provinces={
+		735 1161 1498 3058 3558 3992 5130 5391 5955 6714 7168 7952 9539 9590 9609 9647 9668 9681 
+	}
+	manpower = 28
+	state_category = rural
+	history={
+		owner = SRG
+		victory_points = { 9609 30 }
+		add_core_of = SRG
+}
