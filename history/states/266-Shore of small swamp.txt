@@ -1,0 +1,12 @@
+state={
+	id=266
+	name="STATE_266"
+	provinces={
+		29 127 680 1588 2369 2928 4493 4749 4955 5024 6350 6588 7043 7988 8043 8047 9771 9780 9827 9848 9943 10004 10076 10085 10101 
+	}
+	manpower = 6
+	state_category = rural
+	history={
+		owner = DPS
+		add_core_of = DPS
+}

@@ -1,0 +1,12 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		78 211 249 2955 3232 3668 3955 4265 4489 4563 5090 5971 6758 6905 8031 8305 9743 9804 9901 9910 9936 9977 10018 10028 10067 10152 10200 10216 
+	}
+	manpower = 9
+	state_category = rural
+	history={
+		owner = DPS
+		add_core_of = DPS
+}

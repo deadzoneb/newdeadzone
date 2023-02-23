@@ -1,0 +1,12 @@
+state={
+	id=730
+	name="STATE_730"
+	provinces={
+		364 2739 3024 3275 4351 4541 4705 5383 6794 7239 7440 7743 7893 8544 11825 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = DUT
+		add_core_of = DUT
+}

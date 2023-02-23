@@ -1,4 +1,4 @@
-capital = 316
+capital = 675
 
 oob = "REN_2005"
 

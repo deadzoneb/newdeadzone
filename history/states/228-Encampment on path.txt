@@ -1,0 +1,12 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		26 457 1091 1468 2716 3738 4355 6029 7608 8342 9633 9684 9700 9712 9746 9795 9802 9818 9842 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = YAG
+		add_core_of = YAG
+}

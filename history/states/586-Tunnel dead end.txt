@@ -1,0 +1,12 @@
+state={
+	id=586
+	name="STATE_586"
+	provinces={
+		1002 1683 2231 2303 5493 5690 11128 11171 11225 11270 11271 
+	}
+	manpower = 6
+	state_category = rural
+	history={
+		owner = OGP
+		add_core_of = OGP
+}

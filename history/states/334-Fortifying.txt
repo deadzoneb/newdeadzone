@@ -1,0 +1,14 @@
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		1387 1865 2426 3520 4668 4758 7581 10289 
+	}
+	manpower = 15
+	state_category = rural
+	history={
+		owner = DPS
+		victory_points = { 2426 15 }
+		add_core_of = DPS
+}
+

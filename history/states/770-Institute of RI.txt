@@ -1,0 +1,13 @@
+state={
+	id=770
+	name="STATE_770"
+	provinces={
+		17 163 1124 1127 1391 2516 2792 3796 4091 4415 5402 5451 5793 6274 6508 7869 8241 8243 8324 11909 11945 11968 12010 12022 12068 12078 12092 
+	}
+	manpower = 36
+	state_category = rural
+	history={
+		owner = DUT
+		victory_points = { 4091 30 }
+		add_core_of = DUT
+}

@@ -1,4 +1,4 @@
-capital = 220
+capital = 466
 
 oob = "YAG_2005"
 

@@ -1,0 +1,13 @@
+state={
+	id=382
+	name="STATE_382"
+	provinces={
+		405 645 658 1279 1360 2511 4241 6764 7119 8229 8365 8521 10351 10364 10392 10438 10460 
+	}
+	manpower = 12
+	state_category = rural
+	history={
+		owner = YAG
+		victory_points = { 10351 10 }
+		add_core_of = YAG
+}
