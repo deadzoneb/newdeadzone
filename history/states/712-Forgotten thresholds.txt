@@ -1,0 +1,12 @@
+state={
+	id=712
+	name="STATE_712"
+	provinces={
+		581 1688 2838 6688 11597 11618 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = ECO
+		add_core_of = ECO
+}
