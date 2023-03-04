@@ -1,0 +1,12 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		60 1538 1899 2413 2562 2591 2882 3183 3330 3444 3782 4731 4827 6415 6985 7016 7228 7392 7930 7943 8518 8582 8683 8694 
+	}
+	manpower = 8
+	state_category = rural
+	history={
+		owner = RWS
+		add_core_of = RWS
+}

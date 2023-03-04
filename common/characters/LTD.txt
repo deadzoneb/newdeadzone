@@ -1,0 +1,16 @@
+characters = {
+	LTD_Spiteful = { #LTD
+		name = LTD_Spiteful
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_LTD_Spiteful"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,12 @@
+state={
+	id=828
+	name="STATE_828"
+	provinces={
+		2279 4344 7320 12084 12115 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = MSE
+		add_core_of = MSE
+}

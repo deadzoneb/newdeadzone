@@ -1,0 +1,13 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		2357 2603 4262 6528 6691 6900 8864 8901 8911 
+	}
+	manpower = 15
+	state_category = rural
+	history={
+		owner = RWS
+		victory_points = { 6528 10 }
+		add_core_of = RWS
+}

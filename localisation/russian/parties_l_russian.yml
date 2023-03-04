@@ -43,7 +43,7 @@
  OCS_anarchism:0 "Изгои"
  CRS_science:0 "Чистое Небо"
  ECO_science:0 "Экологи"
- USA_fanaticism:0 "Монолит"
+ MNT_fanaticism:0 "Монолит"
  MIL_order:0 "Военные"
  SNS_science:0 "Учёные"
  PSD_individualism:0 "Отряд Патриота"
@@ -64,3 +64,6 @@
  SNG_anarchism:0 "Банда Султана"
  JSD_individualism:0 "Отряд Шакала"
  SRG_anarchism:0 "Шайка Шныря"
+ RWS_individualism:0 "Железнодорожники"
+ ILN_fanaticism:0 "Адская Инквизиция"
+ 

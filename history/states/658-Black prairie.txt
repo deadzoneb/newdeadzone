@@ -1,0 +1,12 @@
+state={
+	id=658
+	name="STATE_658"
+	provinces={
+		58 1025 1322 2466 3387 4577 4885 4929 4932 5011 5806 5928 6952 7569 8433 8460 11407 11466 11496 11497 11585 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = MSE
+		add_core_of = MSE
+}

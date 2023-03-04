@@ -1,0 +1,13 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		2317 2573 3331 3610 4228 5352 5751 7327 7557 11758 11784 11829 11881 11923 11943 11985 12014 12027 
+	}
+	manpower = 16
+	state_category = rural
+	history={
+		owner = LTD
+		victory_points = { 4228 15 }
+		add_core_of = LTD
+}

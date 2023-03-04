@@ -1,10 +1,10 @@
-capital = 745
+capital = 810
 
-oob = "ECO_2005"
+oob = "LTD_2005"
 
 set_research_slots = 2
 
-recruit_character = ECO_Saharov
+recruit_character = LTD_Spiteful
 
 set_technology = {
 	infantry_weapons = 1
@@ -20,12 +20,12 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = science
+	ruling_party = fanaticism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	science = 100
+	fanaticism = 100
 }
