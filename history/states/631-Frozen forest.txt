@@ -1,0 +1,12 @@
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		2630 4494 7768 11301 11336 11364 
+	}
+	manpower = 10
+	state_category = rural
+	history={
+		owner = SCS
+		add_core_of = SCS
+}

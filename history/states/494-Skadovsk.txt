@@ -1,0 +1,13 @@
+state={
+	id=494
+	name="STATE_494"
+	provinces={
+		1037 6121 6206 7903 8242 
+	}
+	manpower = 24
+	state_category = rural
+	history={
+		owner = LON
+		victory_points = { 7903 30 }
+		add_core_of = LON
+}

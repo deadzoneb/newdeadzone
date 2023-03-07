@@ -1,0 +1,13 @@
+state={
+	id=413
+	name="STATE_413"
+	provinces={
+		1022 3800 4070 4928 5048 10426 
+	}
+	manpower = 18
+	state_category = rural
+	history={
+		owner = SNG
+		victory_points = { 4070 30 }
+		add_core_of = SNG
+}

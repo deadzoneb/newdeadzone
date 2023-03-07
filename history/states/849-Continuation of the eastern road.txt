@@ -1,0 +1,12 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		93 754 1042 1138 1147 1925 3039 3337 3586 4237 4380 4840 6068 6904 7727 7862 8022 8232 12227 12246 12257 12268 12276 12300 12312 12318 12340 12343 
+	}
+	manpower = 6
+	state_category = rural
+	history={
+		owner = OCS
+		add_core_of = OCS
+}

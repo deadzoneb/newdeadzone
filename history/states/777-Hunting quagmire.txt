@@ -1,0 +1,12 @@
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		305 1734 2390 3511 3923 3956 5818 5904 6651 6790 7420 7534 7538 7631 8128 11908 12000 12017 12039 12056 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = OCS
+		add_core_of = OCS
+}

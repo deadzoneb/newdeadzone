@@ -1,0 +1,12 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		630 1800 2314 3637 3852 4130 4278 4654 6020 7085 7181 7418 7665 7685 7844 8347 9483 9518 9526 9559 9593 9602 9604 9650 9690 
+	}
+	manpower = 6
+	state_category = rural
+	history={
+		owner = MNT
+		add_core_of = MNT
+}

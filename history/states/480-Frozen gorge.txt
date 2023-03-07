@@ -4,9 +4,9 @@ state={
 	provinces={
 		15 144 409 1432 1502 2222 2605 2643 3375 4021 4188 4272 4557 4963 5461 5592 5718 6759 7760 7973 8160 8268 8355 10728 10787 10795 10825 10833 10844 10863 10893 10910 10926 10930 10941 10949 
 	}
-	manpower = 3
+	manpower = 5
 	state_category = rural
 	history={
-		owner = MSE
-		add_core_of = MSE
+		owner = PRH
+		add_core_of = PRH
 }

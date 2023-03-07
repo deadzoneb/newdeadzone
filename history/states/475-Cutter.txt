@@ -1,0 +1,12 @@
+state={
+	id=475
+	name="STATE_475"
+	provinces={
+		583 2207 4708 5107 6587 7406 10631 10742 10769 
+	}
+	manpower = 9
+	state_category = rural
+	history={
+		owner = HSD
+		add_core_of = HSD
+}

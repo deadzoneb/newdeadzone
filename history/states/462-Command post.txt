@@ -1,0 +1,13 @@
+state={
+	id=462
+	name="STATE_462"
+	provinces={
+		301 730 1063 1123 1786 5302 5915 6025 6159 6297 7552 7716 8152 8636 10588 10661 10683 10700 10794 10803 10817 
+	}
+	manpower = 14
+	state_category = rural
+	history={
+		owner = CSS
+		victory_points = { 10700 10 }
+		add_core_of = CSS
+}

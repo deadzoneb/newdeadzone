@@ -1,0 +1,12 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		823 1536 3111 5313 7299 7322 10854 10966 
+	}
+	manpower = 9
+	state_category = rural
+	history={
+		owner = FSD
+		add_core_of = FSD
+}

@@ -1,0 +1,12 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		74 1225 1760 2918 8563 10340 10361 
+	}
+	manpower = 12
+	state_category = rural
+	history={
+		owner = SNG
+		add_core_of = SNG
+}

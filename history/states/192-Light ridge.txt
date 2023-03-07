@@ -1,0 +1,12 @@
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		342 562 1103 1131 1684 1798 2419 3002 3179 3647 4059 4165 4882 5954 6471 7077 7205 7585 8019 8085 8310 9444 9457 9474 9500 9508 9510 9527 9533 9547 9553 
+	}
+	manpower = 5
+	state_category = rural
+	history={
+		owner = MNT
+		add_core_of = MNT
+}

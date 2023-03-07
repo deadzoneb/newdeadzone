@@ -1,0 +1,13 @@
+state={
+	id=558
+	name="STATE_558"
+	provinces={
+		1330 2645 4478 5137 6573 8275 11023 11077 11116 11118 11147 
+	}
+	manpower = 16
+	state_category = rural
+	history={
+		owner = SCS
+		victory_points = { 2645 15 }
+		add_core_of = SCS
+}

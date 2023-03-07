@@ -1,0 +1,13 @@
+state={
+	id=769
+	name="STATE_769"
+	provinces={
+		200 358 977 993 1527 2746 5561 7162 11880 11891 11929 
+	}
+	manpower = 16
+	state_category = rural
+	history={
+		owner = OCS
+		victory_points = { 11929 10 }
+		add_core_of = OCS
+}

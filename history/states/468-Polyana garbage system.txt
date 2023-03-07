@@ -1,0 +1,12 @@
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		932 1018 1028 1909 3420 4550 5527 7450 8606 10692 10709 10754 10788 
+	}
+	manpower = 8
+	state_category = rural
+	history={
+		owner = CSS
+		add_core_of = CSS
+}

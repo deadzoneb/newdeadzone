@@ -1,0 +1,13 @@
+state={
+	id=587
+	name="STATE_587"
+	provinces={
+		4571 5091 5168 5930 6406 11162 11190 
+	}
+	manpower = 18
+	state_category = rural
+	history={
+		owner = LON
+		victory_points = { 5168 15 }
+		add_core_of = LON
+}
