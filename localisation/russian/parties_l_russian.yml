@@ -46,7 +46,7 @@
  MNT_fanaticism:0 "Монолит"
  MIL_order:0 "Военные"
  SNS_science:0 "Учёные"
- PSD_individualism:0 "Отряд Патриота"
+ FES_individualism:0 "Вольные Сталкеры"
  DSD_order:0 "Отряд Угрюмого"
  MDS_anarchism:0 "Душегубы"
  HTS_individualism:0 "Охотники"
@@ -71,4 +71,11 @@
  CSS_fanaticism:0 "О-Сознание"
  CSD_individualism:0 "Отряд Тесака"
  SCS_science:0 "Учёные"
+ SFS_order:0 "Спецназ"
+ APC_fanaticism:0 "Апокалипсис"
+ VUS_individualism: "Стервятники"
+ SRS_individualism: "Искатели"
+ PTM_fanaticism:0 "Фантомы"
+ 
+ 
  

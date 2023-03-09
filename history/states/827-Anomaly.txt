@@ -1,0 +1,12 @@
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		101 671 848 2054 7511 12121 12182 12194 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = ILN
+		add_core_of = ILN
+}

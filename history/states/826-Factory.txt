@@ -1,0 +1,13 @@
+state={
+	id=826
+	name="STATE_826"
+	provinces={
+		687 949 1505 1983 2401 4131 4868 5251 5303 6557 6636 6698 6899 8396 8420 12093 12143 
+	}
+	manpower = 26
+	state_category = rural
+	history={
+		owner = ILN
+		victory_points = { 12143 30 }
+		add_core_of = ILN
+}

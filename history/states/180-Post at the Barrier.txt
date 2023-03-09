@@ -1,0 +1,13 @@
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		1070 1315 3780 4644 9373 
+	}
+	manpower = 14
+	state_category = rural
+	history={
+		owner = PTM
+		victory_points = { 4644 10 }
+		add_core_of = PTM
+}

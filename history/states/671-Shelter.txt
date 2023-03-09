@@ -1,0 +1,13 @@
+state={
+	id=671
+	name="STATE_671"
+	provinces={
+		114 682 770 1059 1348 2861 2913 3490 4302 6089 6883 7233 7407 7826 8249 8325 8386 11763 11783 11841 11896
+	}
+	manpower = 32
+	state_category = rural
+	history={
+		owner = APC
+		victory_points = { 682 30 }
+		add_core_of = APC
+}

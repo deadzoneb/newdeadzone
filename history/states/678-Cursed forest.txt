@@ -1,0 +1,13 @@
+state={
+	id=678
+	name="STATE_678"
+	provinces={
+		271 1380 1858 3345 4233 5857 7227 7518 7549 11513 11575 11576 11610 11632 11638 
+	}
+	manpower = 18
+	state_category = rural
+	history={
+		owner = SFS
+		victory_points = { 1380 10 }
+		add_core_of = SFS
+}

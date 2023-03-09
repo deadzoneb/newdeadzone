@@ -1,0 +1,12 @@
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		35 1384 1396 2471 2553 2714 2935 3215 3702 4922 5571 5705 6371 6726 11483 11503 11523 11535 11556 11579 11588 11624 11666 11679 
+	}
+	manpower = 13
+	state_category = rural
+	history={
+		owner = APC
+		add_core_of = APC
+}

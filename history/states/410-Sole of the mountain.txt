@@ -1,0 +1,12 @@
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		10 270 765 935 1426 1615 4015 4517 5126 5607 5888 5986 6387 6446 7339 8294 8298 10394 10461 10505 10519 10575 10596 10602 10632 
+	}
+	manpower = 5
+	state_category = rural
+	history={
+		owner = SRS
+		add_core_of = SRS
+}

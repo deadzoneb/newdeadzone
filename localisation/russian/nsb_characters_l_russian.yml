@@ -17,7 +17,7 @@
  MNT_Haron:0 "Харон"
  MIL_Captain_Tikhonov:0 "Капитан Тихонов"
  JKG_Valet:0 "Валет"
- PSD_Patriot:0 "Патриот"
+ FES_Patriot:0 "Патриот"
  DSD_Dismal:0 "Лейтенант Угрюмый"
  SIN_Raven:0 "Ворон"
  HTS_Garmata:0 "Гармата"
@@ -30,4 +30,6 @@
  ILN_Inquisitor:0 "Инквизитор"
  DYD_Shulga:0 "Подполковник Шульга"
  FSD_Loki:0 "Локи"
+ SRS_Cap:0 "Кэп"
+ PTM_Mervyn:0 "Мэрвин"
  

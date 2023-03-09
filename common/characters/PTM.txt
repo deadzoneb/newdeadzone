@@ -1,0 +1,16 @@
+characters = {
+	PTM_Mervyn = { #PTM
+		name = PTM_Mervyn 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_PTM_Mervyn"
+			}
+		}
+		country_leader = {
+			ideology = monolit
+			traits={  }
+			expire = ""
+			id = -1
+		}	
+	}
+}

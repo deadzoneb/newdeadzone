@@ -124,4 +124,14 @@ spriteTypes = {
 		name = "GFX_portrait_SRG_Snooper"
 		texturefile = "gfx/leaders/SRG/SRG_Snooper.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_FSD_Loki"
+		texturefile = "gfx/leaders/FSD/FSD_Loki.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DYD_Shulga"
+		texturefile = "gfx/leaders/DYD/DYD_Shulga.dds"
+	}
 }

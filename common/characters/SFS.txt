@@ -1,0 +1,16 @@
+characters = {
+	SFS_Gannochenko = { #SFS
+		name = SFS_Gannochenko
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SFS_Gannochenko"
+			}
+		}
+		country_leader = {
+			ideology = statemilitary
+			traits={  }
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

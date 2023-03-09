@@ -1,0 +1,12 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		172 1724 1825 3743 3840 4338 5746 8590 9413 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = PTM
+		add_core_of = PTM
+}

@@ -1,0 +1,13 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		1301 1929 2147 2487 3451 3692 4438 4781 5322 5847 6532 6672 7026 8078 9637 9641 9752 9764 
+	}
+	manpower = 28
+	state_category = rural
+	history={
+		owner = PTM
+		victory_points = { 1929 30 }
+		add_core_of = PTM
+}

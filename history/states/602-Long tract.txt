@@ -1,0 +1,12 @@
+state={
+	id=602
+	name="STATE_602"
+	provinces={
+		913 3050 3630 3695 4083 5582 11142 11159 11199 11256 11314 
+	}
+	manpower = 8
+	state_category = rural
+	history={
+		owner = DSD
+		add_core_of = DSD
+}

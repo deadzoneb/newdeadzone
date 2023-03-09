@@ -1,0 +1,12 @@
+state={
+	id=343
+	name="STATE_343"
+	provinces={
+		557 1238 1437 2966 4242 4255 4309 4375 4609 5513 5723 5790 6185 6384 7618 7772 10184 10185 10190 10208 10240 10313 
+	}
+	manpower = 7
+	state_category = rural
+	history={
+		owner = SRS
+		add_core_of = SRS
+}

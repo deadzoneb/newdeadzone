@@ -1,0 +1,14 @@
+state={
+	id=640
+	name="STATE_640"
+	provinces={
+		64 1339 1579 2445 5543 6422 7006 8392 8514 11410 11462 
+	}
+	manpower = 28
+	state_category = rural
+	history={
+		owner = DSD
+		victory_points = { 11410 30 }
+		add_core_of = DSD
+}
+
