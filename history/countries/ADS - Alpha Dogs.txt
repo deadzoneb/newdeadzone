@@ -1,10 +1,10 @@
-capital = 394
+capital = 839
 
-oob = "STS_2005"
+oob = "ADS_2005"
 
 set_research_slots = 2
 
-recruit_character = STS_Barmen
+recruit_character = ADS_Volkodav
 
 set_technology = {
 	infantry_weapons = 1

@@ -1,9 +1,0 @@
-state={
-	id=299
-	name="STATE_299"
-	provinces={
-		1523 2215 4504 4729 6786 7387 9933 9947 9962 9990 9995 10027 10033 
-	}
-	manpower = 20
-	state_category = rural
-}

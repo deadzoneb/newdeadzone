@@ -1,0 +1,12 @@
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		451 1704 11246 11265 
+	}
+	manpower = 3
+	state_category = rural
+	history={
+		owner = ADS
+		add_core_of = ADS
+}
