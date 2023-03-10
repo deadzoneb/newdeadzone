@@ -4,6 +4,9 @@ state={
 	provinces={
 		94 546 897 1249 1549 1600 1766 2294 3284 3347 3441 3806 4334 4718 5778 6536 7259 7342 7474 7571 7799 8065 8507 9567 9626 9643 
 	}
-	manpower = 20
+	manpower = 8
 	state_category = rural
+	history={
+		owner = GTK
+		add_core_of = GTK
 }

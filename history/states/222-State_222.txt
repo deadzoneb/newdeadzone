@@ -4,6 +4,10 @@ state={
 	provinces={
 		815 960 1448 2238 2798 2974 3505 4565 4735 5180 5253 5487 6963 6973 7153 7216 7252 7266 7421 7633 7726 7918 8149 9557 9566 9599 9644 9660 9673 9689 9693 9707 9723 9729
 	}
-	manpower = 20
+	manpower = 18
 	state_category = rural
+	history={
+		owner = GTK
+		victory_points = { 5487 30 }
+		add_core_of = GTK
 }
