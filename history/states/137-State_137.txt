@@ -4,6 +4,9 @@ state={
 	provinces={
 		733 2016 2171 4205 4446 5405 5422 5633 8073 8172 8311 9223 9238 9248 9274 9334 
 	}
-	manpower = 20
+	manpower = 8
 	state_category = rural
+	history={
+		owner = LTS
+		add_core_of = LTS
 }
