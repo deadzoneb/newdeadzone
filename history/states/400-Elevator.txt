@@ -2,12 +2,12 @@ state={
 	id=400
 	name="STATE_400"
 	provinces={
-		402 898 3894 4948 7222 10406 10448 10508 10544 
+		402 898 3894 4948 7222 10406 10448 10508 10544 12679
 	}
 	manpower = 22
 	state_category = rural
 	history={
 		owner = PSY
-		victory_points = { 898 15 }
+		victory_points = { 12679 15 }
 		add_core_of = PSY
 }
