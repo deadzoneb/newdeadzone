@@ -4,7 +4,7 @@ ideologies = {
 
 		types = {
 
-			dolg = {
+			militarygroup = {
 			}
 
 			statemilitary = {
@@ -51,12 +51,9 @@ ideologies = {
 
 		types = {
 
-			bandits = {
+			banditry = {
 			}
-
-			renegades = {
-			}
-		
+			
 			freedom = {
 			}
 		}
@@ -95,7 +92,7 @@ ideologies = {
 			embargo_threshold_factor = 0.5
 	}
 }
-
+		
 	individualism = {
 
 		types = {
@@ -147,7 +144,7 @@ ideologies = {
 
 		types = {
 
-			scientists  = {
+			research  = {
 			}
 
 			clrsky  = {
@@ -206,7 +203,7 @@ ideologies = {
 			"FACTION_NAME_FANATICISM_5"
 		}
 
-		color = { 0 255 0 }
+		color = { 255 255 255 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
