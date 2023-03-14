@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "Renegades Squad"
+	division_names_group = REN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6353
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}	
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12696
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12701
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1102
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12704
+		division_template = "Renegades Squad"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.15
+		start_manpower_factor = 0.15
+
+	}
+}
+
+add_equipment_production = {
+	equipment = {
+		type = infantry_equipment_0
+		creator = "REN"
+	}
+	requested_factories = 1
+	progress = 0.86
+	efficiency = 100
+
+	}
+}
