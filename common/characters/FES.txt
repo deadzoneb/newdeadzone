@@ -1,5 +1,5 @@
 characters = {
-	FES_Patriot = { #FES
+	FES_Kosoy = { #FES
 		name = FES_Kosoy
 		portraits = {
 			civilian = {
