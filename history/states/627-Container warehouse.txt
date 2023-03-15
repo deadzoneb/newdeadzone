@@ -2,12 +2,12 @@ state={
 	id=627
 	name="STATE_627"
 	provinces={
-		1307 2117 2957 6495 7201 8387 11251 11351 11352 11354 11389 
+		1307 2117 2957 6495 7201 8387 11251 11351 11352 11354 11389 12877
 	}
 	manpower = 26
 	state_category = rural
 	history={
 		owner = SKG
-		victory_points = { 2957 30 }
+		victory_points = { 12877 30 }
 		add_core_of = SKG
 }
