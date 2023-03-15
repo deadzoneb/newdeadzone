@@ -1,9 +1,9 @@
 characters = {
-	FES_Patriot = { #FES
-		name = FES_Patriot
+	FES_Goblin = { #FES
+		name = FES_Goblin
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_FES_Patriot"
+				large = "GFX_portrait_FES_Goblin"
 			}
 		}
 		country_leader = {
