@@ -7,7 +7,6 @@ state={
 	manpower = 18
 	state_category = rural
 	history={
-		owner = GTK
-		victory_points = { 5487 30 }
-		add_core_of = GTK
+		owner = PSY
+		add_core_of = PSY
 }
