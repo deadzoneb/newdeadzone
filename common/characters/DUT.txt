@@ -7,9 +7,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = dolg
+			ideology = militarygroup
 			traits={  }
-			expire = "1944.1.1.1"
+			expire = "2005.1.1.1"
 			id = -1
 		}	
 	}

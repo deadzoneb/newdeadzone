@@ -1,0 +1,25 @@
+﻿REN_INF_01 = {
+	name = "Renegades Squad"
+
+	for_countries = { REN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Renegades Squad"
+
+	{
+		1 = { "%s Renegades Squad" }
+		2 = { "%s Renegades Squad" }
+		3 = { "%s Renegades Squad" }
+		4 = { "%s Renegades Squad" }
+		5 = { "%s Renegades Squad" }
+		6 = { "%s Renegades Squad" }		
+		7 = { "%s Renegades Squad" }
+		8 = { "%s Renegades Squad" }
+		9 = { "%s Renegades Squad" }
+		10 = { "%s Renegades Squad" }	
+	}
+}
+

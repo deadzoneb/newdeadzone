@@ -1,0 +1,25 @@
+﻿VSD_INF_01 = {
+	name = "Stalkers Squad"
+
+	for_countries = { VSD }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Stalkers Squad"
+
+	{
+		1 = { "%s Stalkers Squad" }
+		2 = { "%s Stalkers Squad" }
+		3 = { "%s Stalkers Squad" }
+		4 = { "%s Stalkers Squad" }
+		5 = { "%s Stalkers Squad" }
+		6 = { "%s Stalkers Squad" }		
+		7 = { "%s Stalkers Squad" }
+		8 = { "%s Stalkers Squad" }
+		9 = { "%s Stalkers Squad" }
+		10 = { "%s Stalkers Squad" }	
+	}
+}
+

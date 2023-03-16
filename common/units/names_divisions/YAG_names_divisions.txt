@@ -1,0 +1,25 @@
+﻿REN_INF_01 = {
+	name = "Bandit Squad"
+
+	for_countries = { YAG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Bandit Squad"
+
+	{
+		1 = { "%s Bandit Squad" }
+		2 = { "%s Bandit Squad" }
+		3 = { "%s Bandit Squad" }
+		4 = { "%s Bandit Squad" }
+		5 = { "%s Bandit Squad" }
+		6 = { "%s Bandit Squad" }		
+		7 = { "%s Bandit Squad" }
+		8 = { "%s Bandit Squad" }
+		9 = { "%s Bandit Squad" }
+		10 = { "%s Bandit Squad" }	
+	}
+}
+

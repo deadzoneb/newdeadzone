@@ -1,0 +1,25 @@
+﻿MER_INF_01 = {
+	name = "Mercenaries Squad"
+
+	for_countries = { MER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Mercenaries Squad"
+
+	{
+		1 = { "%s Mercenaries Squad" }
+		2 = { "%s Mercenaries Squad" }
+		3 = { "%s Mercenaries Squad" }
+		4 = { "%s Mercenaries Squad" }
+		5 = { "%s Mercenaries Squad" }
+		6 = { "%s Mercenaries Squad" }		
+		7 = { "%s Mercenaries Squad" }
+		8 = { "%s Mercenaries Squad" }
+		9 = { "%s Mercenaries Squad" }
+		10 = { "%s Mercenaries Squad" }	
+	}
+}
+

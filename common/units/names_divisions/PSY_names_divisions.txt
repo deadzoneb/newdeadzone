@@ -1,0 +1,25 @@
+﻿PSY_INF_01 = {
+	name = "Military Squad"
+
+	for_countries = { PSY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s Military Squad"
+
+	{
+		1 = { "%s Military Squad" }
+		2 = { "%s Military Squad" }
+		3 = { "%s Military Squad" }
+		4 = { "%s Military Squad" }
+		5 = { "%s Military Squad" }
+		6 = { "%s Military Squad" }		
+		7 = { "%s Military Squad" }
+		8 = { "%s Military Squad" }
+		9 = { "%s Military Squad" }
+		10 = { "%s Military Squad" }	
+	}
+}
+
