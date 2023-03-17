@@ -1,0 +1,402 @@
+bnd_borey_road_decision = {
+
+	borey_upproizv = {   
+
+		#icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = {
+			has_tech = freteeze 
+			num_of_civilian_factories_available_for_projects > 0
+			owns_state = 35 
+			controls_state = 35 
+		}
+
+		visible = {
+tag = BND
+			owns_state = 35 
+			controls_state = 35  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = { 
+		custom_effect_tooltip = sugar_money
+	add_to_variable = { var = dopmon value = 0.05 }
+	add_to_variable = { var = borsobstv value = 0.05 }
+set_country_flag = fretez_used_bor
+		}
+	}
+	borey_upproizv2 = {   
+
+		#icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = {
+			has_tech = freteeze_selection 
+			num_of_civilian_factories_available_for_projects > 0
+			owns_state = 35 
+			controls_state = 35 
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put
+			owns_state = 35 
+			controls_state = 35  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = { 
+		custom_effect_tooltip = sugar_money
+	add_to_variable = { var = dopmon value = 0.05 }
+	add_to_variable = { var = borsobstv value = 0.05 }
+		}
+	}
+	borey_upproizv3 = {   
+
+		#icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = {
+			has_tech = freteeze2
+			num_of_civilian_factories_available_for_projects > 0
+			owns_state = 35 
+			controls_state = 35 
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put
+			has_country_flag = fretez_used_bor
+			owns_state = 35 
+			controls_state = 35  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = { 
+		custom_effect_tooltip = sugar_money
+	add_to_variable = { var = dopmon value = 0.05 }
+	add_to_variable = { var = borsobstv value = 0.05 }
+		}
+	}
+	borey_upproizv4 = {   
+
+		#icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = {
+			has_tech = freteeze3
+			num_of_civilian_factories_available_for_projects > 0
+			owns_state = 35 
+			controls_state = 35 
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put 
+			owns_state = 35 
+			controls_state = 35  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = { 
+		custom_effect_tooltip = sugar_money
+	add_to_variable = { var = dopmon value = 0.05 }
+	add_to_variable = { var = borsobstv value = 0.05 }
+		}
+	}
+	borey_ultimatum_krb = {   
+
+		icon = generic_speech
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = { 
+has_tech = freteeze3
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = {  
+		}
+	}
+	borey_attack_krb = {   
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32 
+			}
+		}
+
+		available = { 
+
+OR = {
+any_country = { 
+is_in_faction_with = BND
+is_neighbor_of = KRB
+}
+any_state = {
+is_owned_by = ROOT
+any_neighbor_state = {
+is_owned_by = KRB
+}
+} }
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put  
+country_exists = KRB
+		}
+
+		fire_only_once = yes
+
+		cost = 50 
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {  
+		declare_war_on = {
+		target = KRB
+		type = annex_everything
+	}
+		}
+	}
+	borey_approach_pov = {   
+
+		icon = eng_trade_unions_support
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = { 
+has_tech = freteeze3
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = {  
+		}
+	}
+	borey_approach_fsl = {   
+
+		icon = generic_nationalism
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35 
+			}
+		}
+
+		available = { 
+has_tech = freteeze3
+		}
+
+		visible = {
+tag = BND
+has_completed_focus = bnd_bor_trade_put  
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		modifier = {
+			civilian_factory_use = 1
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = {  
+		}
+	}
+	borey_rup_accoc = {   
+
+		#icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 343 
+			}
+		}
+
+		available = { 
+		check_variable={mdx > 50}
+			has_manpower > 50
+			has_equipment = { infantry_equipment > 49 } 
+OR = { 
+ADM = { has_idea = cmo_contrabandist_problem }
+BND = { has_full_control_of_state = 40 }
+}
+		}
+
+		visible = {
+has_country_flag = bnd_cmo_danger
+NOT = { has_country_flag = adm_oboidena }
+tag = BND  
+country_exists = RUP
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 60
+
+		modifier = {
+			political_power_cost = 0.3
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		remove_effect = { 
+		custom_effect_tooltip = svuaz_vosstanovlena 
+				set_variable = { borproizv = borproizv2 } 
+add_manpower = -50
+add_equipment_to_stockpile = { type = infantry_equipment amount = -50  }
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+		}
+	}
+}

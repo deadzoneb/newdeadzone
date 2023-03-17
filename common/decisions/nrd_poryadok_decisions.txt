@@ -1,0 +1,231 @@
+nrd_poryadok_decisions = { 
+
+nrd_interg_vle = {
+		icon = generic_nationalism
+
+		available = {
+has_full_control_of_state = 215
+has_full_control_of_state = 214 
+has_full_control_of_state = 221
+has_full_control_of_state = 218
+has_full_control_of_state = 225
+has_full_control_of_state = 226
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+
+tag = NRD
+
+OR = {
+not = { 215 = { is_core_of = NRD } }
+not = { 214 = { is_core_of = NRD } } 
+not = { 221 = { is_core_of = NRD } }
+not = { 218 = { is_core_of = NRD } }
+not = { 225 = { is_core_of = NRD } }
+not = { 226 = { is_core_of = NRD } } 
+}
+}
+		cost = 30
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.3 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+ 
+add_state_core = 215
+add_state_core = 214 
+add_state_core = 221
+add_state_core = 218
+add_state_core = 225
+add_state_core = 226
+
+
+
+}
+}
+ 
+
+nrd_interg_cre = {
+		icon = generic_nationalism
+
+		available = {
+has_full_control_of_state = 230
+has_full_control_of_state = 231
+has_full_control_of_state = 232
+has_full_control_of_state = 235
+has_full_control_of_state = 236
+has_full_control_of_state = 113 
+has_full_control_of_state = 233
+has_full_control_of_state = 234 
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+
+tag = NRD
+
+OR = {
+not = { 230 = { is_core_of = NRD } }
+not = { 231 = { is_core_of = NRD } }
+not = { 232 = { is_core_of = NRD } }
+not = { 235 = { is_core_of = NRD } }
+not = { 236 = { is_core_of = NRD } }
+not = { 113 = { is_core_of = NRD } } 
+not = { 233 = { is_core_of = NRD } }
+not = { 234 = { is_core_of = NRD } } 
+}
+}
+		cost = 30
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.3 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+ 
+add_state_core = 230
+add_state_core = 231
+add_state_core = 232
+add_state_core = 235
+add_state_core = 236
+add_state_core = 113 
+add_state_core = 233
+add_state_core = 234 
+
+ 
+}
+}
+  
+nrd_interg_ceo = {
+		icon = generic_nationalism
+
+		available = {
+has_full_control_of_state = 203
+has_full_control_of_state = 211 
+has_full_control_of_state = 212
+has_full_control_of_state = 227
+has_full_control_of_state = 213
+has_full_control_of_state = 229
+has_full_control_of_state = 228
+has_full_control_of_state = 208
+has_full_control_of_state = 209
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+tag = NRD
+OR = {
+not = { 203 = { is_core_of = NRD } }
+not = { 211 = { is_core_of = NRD } }
+not = { 212 = { is_core_of = NRD } }
+not = { 227 = { is_core_of = NRD } }
+not = { 213 = { is_core_of = NRD } }
+not = { 229 = { is_core_of = NRD } }
+not = { 228 = { is_core_of = NRD } }
+not = { 208 = { is_core_of = NRD } }
+not = { 209 = { is_core_of = NRD } }
+}
+
+}
+		cost = 25
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.25 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+  
+add_state_core = 203
+add_state_core = 211 
+add_state_core = 212
+add_state_core = 227
+add_state_core = 213
+add_state_core = 229
+add_state_core = 228
+add_state_core = 208
+add_state_core = 209
+
+
+
+
+}
+}
+
+
+nrd_interg_rdu = {
+		icon = generic_nationalism
+
+		available = {
+has_full_control_of_state = 41
+has_full_control_of_state = 42
+has_full_control_of_state = 237
+has_full_control_of_state = 238
+has_full_control_of_state = 239 
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+
+tag = NRD
+
+OR = {
+not = { 41 = { is_core_of = NRD } }
+not = { 42 = { is_core_of = NRD } }
+not = { 237 = { is_core_of = NRD } }
+not = { 238 = { is_core_of = NRD } }
+not = { 239 = { is_core_of = NRD } } 
+}
+}
+		cost = 20
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.2 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+ 
+add_state_core = 41
+add_state_core = 42
+add_state_core = 237
+add_state_core = 238
+add_state_core = 239 
+
+ 
+}
+}
+
+}

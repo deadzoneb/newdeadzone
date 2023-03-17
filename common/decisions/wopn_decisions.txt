@@ -1,0 +1,211 @@
+wopn_decisions = {
+	improved_obesp_research = {
+
+		icon = generic_research
+
+		available = {
+		check_variable={mdx > prov}
+		}
+
+		visible = {
+			always=no
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		research_speed_factor = 0.05
+		}
+
+		days_remove = 90
+		days_re_enable = 180
+
+		cost = 20
+
+		complete_effect = {
+subtract_from_variable = { var = mdx value = prov }
+		custom_effect_tooltip = social_obespecheno
+		}
+
+		ai_will_do = {
+			base = 3
+		}
+	}
+	research_infantry = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+always=no
+		}
+		
+		fire_only_once = no
+days_remove = 90
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	research_industry = {
+
+		icon = generic_construction
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+always=no
+		}
+		
+		fire_only_once = no
+days_remove = 90
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	research_freteeze = {
+
+		icon = generic_agriculture
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+always=no
+		}
+		
+		fire_only_once = no
+days_remove = 90
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				name = freteeze_bonus
+				bonus = 0.5
+				uses = 1
+				category = freteezer
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	research_med = {
+
+		icon = medecine_des
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+always=no
+		}
+		
+		fire_only_once = no
+days_remove = 90
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				name = freteeze_bonus
+				bonus = 0.5
+				uses = 1
+				category = medecinetr
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	research_electr = {
+
+		icon = electr_des
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+always=no
+		}
+		
+		fire_only_once = no
+days_remove = 90
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+########################################
+}

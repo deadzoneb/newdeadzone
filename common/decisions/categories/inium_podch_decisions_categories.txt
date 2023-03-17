@@ -1,0 +1,9 @@
+inium_podch_decisions = {
+	icon = ini_conference
+
+	#picture = GFX_decision_cat_picture_chi_infiltration
+	scripted_gui = ini_podch_descision_ui
+	allowed = {
+	always = yes
+	}
+}

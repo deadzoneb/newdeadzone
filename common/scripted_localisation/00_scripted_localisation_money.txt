@@ -1,0 +1,351 @@
+ 
+
+defined_text = { # Country
+	name = Getbednost_st_otobrTooltip
+	text = {
+		localization_key = BEDNOST_TOOLTIP_ST_BASE
+	}
+}
+defined_text = { # Country
+	name = GetProd_sod_Tooltip
+	text = {
+		localization_key = PROD_SOD_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = Getbednost_otobrTooltip
+	text = {
+		localization_key = BEDNOST_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetMoneyTooltip
+	text = {
+		localization_key = MONEY_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = Getcanyon_button1_text_TOOLTIP
+	text = {
+		localization_key = canyon_button1_text_TOOLTIP
+	}
+}
+defined_text = { # Country
+	name = Getcanyon_button2_text_TOOLTIP
+	text = {
+		localization_key = canyon_button2_text_TOOLTIP
+	}
+}
+
+
+defined_text = { # Country
+	name = GetInflationTooltip
+	text = {
+		localization_key = INFLATION_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe1Tooltip
+	text = {
+		localization_key = DE1_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe42Tooltip
+	text = {
+		localization_key = DE42_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe11Tooltip
+	text = {
+		localization_key = DE11_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe12Tooltip
+	text = {
+		localization_key = DE12_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe13Tooltip
+	text = {
+		localization_key = DE13_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe14Tooltip
+	text = {
+		localization_key = DE14_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe21Tooltip
+	text = {
+		localization_key = DE21_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe22Tooltip
+	text = {
+		localization_key = DE22_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe23Tooltip
+	text = {
+		localization_key = DE23_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe24Tooltip
+	text = {
+		localization_key = DE24_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe25Tooltip
+	text = {
+		localization_key = DE25_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe251Tooltip
+	text = {
+		localization_key = DE251_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe26Tooltip
+	text = {
+		localization_key = DE26_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe27Tooltip
+	text = {
+		localization_key = DE27_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe28Tooltip
+	text = {
+		localization_key = DE28_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe29Tooltip
+	text = {
+		localization_key = DE29_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe30Tooltip
+	text = {
+		localization_key = DE30_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe31Tooltip
+	text = {
+		localization_key = DE31_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe32Tooltip
+	text = {
+		localization_key = DE32_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe33Tooltip
+	text = {
+		localization_key = DE33_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe34Tooltip
+	text = {
+		localization_key = DE34_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe2Tooltip
+	text = {
+		localization_key = DE2_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe3Tooltip
+	text = {
+		localization_key = DE3_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe4Tooltip
+	text = {
+		localization_key = DE4_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe5Tooltip
+	text = {
+		localization_key = DE5_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetDe6Tooltip
+	text = {
+		localization_key = DE6_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe7Tooltip
+	text = {
+		localization_key = DE7_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe8Tooltip
+	text = {
+		localization_key = DE8_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe9Tooltip
+	text = {
+		localization_key = DE9_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe10Tooltip
+	text = {
+		localization_key = DE10_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe35Tooltip
+	text = {
+		localization_key = DE35_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe36Tooltip
+	text = {
+		localization_key = DE36_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe37Tooltip
+	text = {
+		localization_key = DE37_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe371Tooltip
+	text = {
+		localization_key = DE371_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe38Tooltip
+	text = {
+		localization_key = DE38_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe381Tooltip
+	text = {
+		localization_key = DE381_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe39Tooltip
+	text = {
+		localization_key = DE39_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe40Tooltip
+	text = {
+		localization_key = DE40_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetDe41Tooltip
+	text = {
+		localization_key = DE41_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetNoGovTooltip
+	text = {
+		localization_key = NOGOV_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetGo1Tooltip
+	text = {
+		localization_key = GO1_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetIntegrTooltip
+	text = {
+		localization_key = INTEGR_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetIntegr2Tooltip
+	text = {
+		localization_key = INTEGR2_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetTRGFacTooltip
+	text = {
+		localization_key = FACTORIA_TARG_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetTRGFac2Tooltip
+	text = {
+		localization_key = FACTORIA_TARG2_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetTRGFac3Tooltip
+	text = {
+		localization_key = FACTORIA_TARG3_TOOLTIP_BASE
+	}
+}
+

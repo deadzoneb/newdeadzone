@@ -1,0 +1,235 @@
+
+defined_text = { # Country
+	name = Getbednost_otobrTooltip
+	text = {
+		localization_key = bednost_otobr_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetProvisionTooltip
+	text = {
+		localization_key = GRAIN_TOOLTIP_BASE
+	}
+}
+
+
+defined_text = { # Country
+	name = GetBloodyTooltip
+	text = {
+		localization_key = BLOODY_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNITYTooltip
+	text = {
+		localization_key = UNITY_TOOLTIP_BASE
+	}
+}
+
+defined_text = { # Country
+	name = GetUNTR1Tooltip
+	text = {
+		localization_key = UNTR1_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR2Tooltip
+	text = {
+		localization_key = UNTR2_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR3Tooltip
+	text = {
+		localization_key = UNTR3_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR4Tooltip
+	text = {
+		localization_key = UNTR4_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR5Tooltip
+	text = {
+		localization_key = UNTR5_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR6Tooltip
+	text = {
+		localization_key = UNTR6_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR7Tooltip
+	text = {
+		localization_key = UNTR7_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR8Tooltip
+	text = {
+		localization_key = UNTR8_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR9Tooltip
+	text = {
+		localization_key = UNTR9_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR10Tooltip
+	text = {
+		localization_key = UNTR10_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR11Tooltip
+	text = {
+		localization_key = UNTR11_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR12Tooltip
+	text = {
+		localization_key = UNTR12_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR13Tooltip
+	text = {
+		localization_key = UNTR13_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR14Tooltip
+	text = {
+		localization_key = UNTR14_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR141Tooltip
+	text = {
+		localization_key = UNTR141_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR142Tooltip
+	text = {
+		localization_key = UNTR142_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR143Tooltip
+	text = {
+		localization_key = UNTR143_TOOLTIP_BASE
+	}
+}
+
+
+defined_text = { # Country
+	name = GetUNTR1ATooltip
+	text = {
+		localization_key = UNTR1_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR2ATooltip
+	text = {
+		localization_key = UNTR2_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR3ATooltip
+	text = {
+		localization_key = UNTR3_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR4ATooltip
+	text = {
+		localization_key = UNTR4_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR5ATooltip
+	text = {
+		localization_key = UNTR5_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR6ATooltip
+	text = {
+		localization_key = UNTR6_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR7ATooltip
+	text = {
+		localization_key = UNTR7_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR8ATooltip
+	text = {
+		localization_key = UNTR8_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR9ATooltip
+	text = {
+		localization_key = UNTR9_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR10ATooltip
+	text = {
+		localization_key = UNTR10_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR11ATooltip
+	text = {
+		localization_key = UNTR11_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR12ATooltip
+	text = {
+		localization_key = UNTR12_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR13ATooltip
+	text = {
+		localization_key = UNTR13_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR14ATooltip
+	text = {
+		localization_key = UNTR14_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR141ATooltip
+	text = {
+		localization_key = UNTR141_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR142ATooltip
+	text = {
+		localization_key = UNTR142_A_TOOLTIP_BASE
+	}
+}
+defined_text = { # Country
+	name = GetUNTR143ATooltip
+	text = {
+		localization_key = UNTR143_A_TOOLTIP_BASE
+	}
+}

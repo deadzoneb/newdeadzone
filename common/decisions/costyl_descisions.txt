@@ -1,0 +1,379 @@
+costyl_decisions = {
+costyl1 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = CRM
+country_exists = INC
+NOT = { has_war_with = INC }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = INC
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+
+costyl2 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = INC
+country_exists = CRM
+NOT = { has_war_with = CRM }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = CRM
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl3 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = FSL
+country_exists = BNT
+NOT = { has_war_with = BNT }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = BNT
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl4 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = BNT
+country_exists = FSL
+NOT = { has_war_with = FSL }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = FSL
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl5 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = NSL
+country_exists = BNT
+NOT = { has_war_with = BNT }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = BNT
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl6 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		always = yes
+		}
+
+		visible = {
+original_tag = BNT
+country_exists = NSL
+NOT = { has_war_with = NSL }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = NSL
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl7 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		NOT = { 
+country_exists = BNT
+}
+		}
+
+		visible = {
+original_tag = NSL
+country_exists = FSL
+NOT = { has_war_with = FSL }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = FSL 
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl8 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		NOT = { 
+country_exists = BNT
+}
+		}
+
+		visible = {
+original_tag = FSL
+country_exists = NSL
+NOT = { has_war_with = NSL }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = NSL
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl9 = {
+
+		icon = encryption_tech_2
+
+		available = {
+NOT = { has_war_with = NSL }
+		NOT = { 
+country_exists = BNT
+}
+country_exists = NSL
+NSL = { has_full_control_of_state = 36 }
+NOT = { NSL  = { has_full_control_of_state = 356 } }
+		}
+
+		visible = {
+original_tag = FSL
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		
+annex_country = { target = NSL transfer_troops = no }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl10 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		not = { country_exists = ADN }
+		}
+
+		visible = {
+original_tag = PDN
+country_exists = KDN
+NOT = { has_war_with = KDN }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = KDN
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl11 = {
+
+		icon = encryption_tech_2
+
+		available = {
+		not = { country_exists = ADN }
+		}
+
+		visible = {
+original_tag = KDN 
+country_exists = PDN
+NOT = { has_war_with = PDN }
+		}
+		
+		fire_only_once = yes
+		
+		cost = 0
+		
+		complete_effect = {
+
+		declare_war_on = {
+		target = PDN
+		type = annex_everything
+	}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+costyl12 = {
+
+		icon = encryption_tech_2
+
+		available = {
+not = { has_full_control_of_state = 384 }
+		}
+
+		visible = {
+original_tag = TNC
+ OR = { 
+  has_war_with = DRE
+  has_war_with = KDT
+  has_war_with = NUE
+} 
+		}
+		
+		fire_only_once = yes
+		
+		cost = 50
+		
+		complete_effect = {
+ 384 = { controller = {
+transfer_state = 384
+} }
+if = { limit = { owned_state  = 385 }
+ 385 = { controller = {
+transfer_state = 385
+} }
+every_country = { limit = { has_war_with = TNC }
+white_peace = TNC 
+}
+}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+}
+
+}

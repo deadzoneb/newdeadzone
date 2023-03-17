@@ -1,0 +1,51 @@
+aden_civilward = {
+
+	adn_civilwar_mission = {
+
+		icon = generic_civil_support
+		
+		allowed = {
+			tag = ADN
+		}
+		available = {
+has_country_flag = adn_civilwar_started 
+   
+			}
+		
+is_good = no
+		days_mission_timeout = 1300
+
+		activation = { 
+NOT = { has_country_flag = adn_civilwar_started }
+							} 
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+news_event = { hours = 6 id = news.355 }
+  unlock_national_focus = adn_foreign_expeditions
+if = { limit = { NOT = { has_country_flag = adn_omnicraty_supressed } }
+add_ideas = adn_omni_separatism }
+if = { limit = { NOT = { has_country_flag = adn_nationalisty_supressed } }
+add_ideas = adn_nation_separatism }
+if = { limit = { has_idea = EDN_epidemic_ogran   }
+remove_ideas = EDN_epidemic_ogran  }
+PDN = {
+		declare_war_on = {
+		target = ADN
+		type = annex_everything
+	} }
+KDN = { 
+		declare_war_on = {
+		target = ADN
+		type = annex_everything
+	}
+}
+			 
+			set_country_flag = adn_civilwar_started 
+
+		}
+	}
+
+}

@@ -1,0 +1,274 @@
+default_peace = {
+	enable = {
+			always = yes
+	}
+
+	annex_randomness = 0
+	liberate_randomness = 0
+	puppet_randomness = 0
+	take_states_randomness = 0
+	force_government_randomness = 0
+
+	# ROOT = Taker, FROM = Giver
+	annex = {
+		base = 0
+		modifier = {
+			factor = 1
+			always = yes
+		}
+	}
+
+	# ROOT = Taker, FROM = Liberated
+	liberate = {
+		base = 0 
+	}
+
+	# ROOT = Taker, FROM = Giver
+	puppet = {
+		base = 0
+		#modifier = {
+		# factor = 0
+		# FROM = {
+		#		OR = {
+		#			is_neighbor_of = ROOT
+		#			any_owned_state = {
+		#				has_claimed_state_in_peace_conference = ROOT
+		#			}
+		#		}
+		# }
+		#}
+	}
+
+	# ROOT = Taker, FROM = Giver
+	puppet_all = {
+		base = 0 
+	}
+
+	# ROOT = STATE, FROM = Taker, FROM.FROM = Giver
+	puppet_state = {
+		base = 0
+	}
+
+	# ROOT = Taker, FROM = State
+	take_states = {
+		base = 10000
+
+		# Don't take a state if you don't have a claim on it, but an ally in the
+		# war does.
+		modifier = {
+			factor = 0
+			FROM = {
+				NOT = { is_claimed_by = ROOT }
+			}
+			any_allied_country = {
+				has_war_together_with = ROOT
+				FROM = {
+					is_claimed_by = PREV
+				}
+			}
+		}
+
+		# Don't take a state if you don't have it as a core, but an ally in the war
+		# does.
+		modifier = {
+			factor = 0
+			FROM = {
+				NOT = { is_core_of = ROOT }
+			}
+			any_allied_country = {
+				has_war_together_with = ROOT
+				FROM = {
+					is_core_of = PREV
+				}
+			}
+		}
+
+		# Don't take a state if its owner is your puppet?
+		modifier = {
+			factor = 0
+			FROM = {
+				OWNER = {
+					is_subject_of = ROOT
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0
+			FROM = {
+				NOT = {
+					OR = {
+						is_claimed_by = ROOT
+						is_core_of = ROOT
+						FROM = {
+							owner = {
+								ROOT = { has_annex_war_goal = PREV }
+							}
+						}
+						any_neighbor_state = {
+							OR = {
+								is_owned_by = ROOT
+								has_claimed_state_in_peace_conference = ROOT
+							} 
+						}
+						AND = { 
+							is_coastal = yes
+							ROOT = {
+								any_owned_state = {
+									is_coastal = yes
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		# modifier = {
+		#		factor = 0
+		#		any_country = {
+		#			exists = yes
+		#			NOT = { has_capitulated = yes }
+		#			is_in_peace_conference = yes
+		#			FROM = { is_core_of = PREV }
+		#		}
+		# }
+
+		modifier = {
+			factor = 0.1
+			FROM = {
+				any_neighbor_state = {
+					OR = {
+						owner = {
+							is_in_faction_with = ROOT
+						}
+						any_of_scopes = {
+							array = ROOT.allies
+							PREV = { has_claimed_state_in_peace_conference = PREV }
+						}
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 20
+			FROM = {
+				OR = {
+					is_claimed_by = ROOT
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		modifier = {
+			capital_scope = {
+				set_temp_variable = { distance_factor = THIS.distance_to@FROM }
+				divide_temp_variable = { distance_factor = 6000 }
+			}
+			factor = distance_factor
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 1
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 1
+						owner = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 2
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 2
+						owner = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 3
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 3
+						owner = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 4
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 4
+						owner = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 5
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 5
+						owner = ROOT
+					}
+				}
+			}
+		}
+
+		modifier = {
+			factor = 1.5
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 6
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 6
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+
+	# ROOT = Taker, FROM = Giver
+	force_government = {
+		factor = 0
+	}
+}
+# vim: set ft=pdx ts=2 sw=2 tw=79 :

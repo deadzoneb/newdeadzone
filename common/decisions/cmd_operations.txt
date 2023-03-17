@@ -1,0 +1,36 @@
+
+cmd_operations = {
+cmd_operation_vaiten = {
+		icon = generic_political_discourse
+
+		available = {
+has_manpower > 300
+has_equipment = { infantry_equipment > 299 } 
+}
+		
+visible = {
+tag = CMD 
+has_completed_focus = cmd_start_war
+has_war_with = BND
+}
+		fire_only_once = yes
+days_remove = 30
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = {
+add_manpower = -300
+add_equipment_to_stockpile = { type = infantry_equipment amount = -300  }
+}
+		remove_effect = {
+347 = {
+		create_unit = {
+			division = "name = \"Vaiten Troopers\" division_template = \"Agency Squad\"  start_experience_factor = 0.0"
+			allow_spawning_on_enemy_provs = yes
+			owner = ROOT
+		}
+}
+}
+}
+}

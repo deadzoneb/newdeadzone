@@ -1,0 +1,38 @@
+dre_civilward = {
+	dre_civilward_mission = {
+
+		icon = generic_civil_support
+		
+		allowed = {
+			tag = DRE
+		}
+		available = {
+has_country_flag = dre_vosst_sluch
+   
+			}
+		
+is_good = no
+		days_mission_timeout = 250
+
+		activation = { 
+NOT = { has_country_flag = dre_vosst_sluch }
+							} 
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+		custom_effect_tooltip = dre_vosst_soversh
+set_country_flag = dre_vosst_sluch 
+hidden_effect = {
+if = { limit = { has_completed_focus = dra_defence_the_empire }
+ DRE = { country_event = {days = 1 id = brrdre.5 } }
+}
+if = { limit = { NOT = { has_completed_focus = dra_defence_the_empire } }
+ DRE = { country_event = {days = 1 id = brrdre.6 } }
+}
+}
+
+		}
+	}
+}

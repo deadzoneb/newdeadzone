@@ -1,0 +1,256 @@
+objed_decisions = { 
+ 
+obeden_vosst_kia = {
+		icon = generic_formable_nations
+
+		available = {
+			has_full_control_of_state = 268
+			has_full_control_of_state = 269 
+}
+		
+		highlight_states = {
+ highlight_state_targets = { state = 268 } 
+}
+visible = {
+OR = { 
+                    has_government = teocratic
+                    has_government = paternal_autocrat
+                    has_government = democratic
+} 
+not = { 268 = { is_core_of = ROOT } }
+not = { 269 = { is_core_of = ROOT } } 
+}
+		cost = 100
+
+		fire_only_once = yes
+days_remove = 180 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {  
+
+KIA = { transfer_state = 268 
+transfer_state = 269 } 
+
+	set_autonomy = {
+		target = KIA
+		autonomous_state = autonomy_colony
+	}
+hidden_effect = {
+KIA = {
+set_politics = {
+	ruling_party = paternal_autocrat 
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+add_popularity = { ideology = paternal_autocrat popularity = 0.4}
+} }
+
+}
+}
+obeden_vosst_fhl = {
+		icon = generic_formable_nations
+
+		available = {
+			has_full_control_of_state = 351
+			has_full_control_of_state = 271
+			has_full_control_of_state = 272
+}
+		
+		highlight_states = {
+ highlight_state_targets = { state = 271 } 
+}
+visible = {
+OR = { 
+                    has_government = teocratic
+                    has_government = paternal_autocrat
+                    has_government = democratic
+} 
+not = { 351 = { is_core_of = ROOT } }
+not = { 271 = { is_core_of = ROOT } }
+not = { 272 = { is_core_of = ROOT } }
+}
+		cost = 100
+
+		fire_only_once = yes
+days_remove = 180 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {  
+
+FHL = { transfer_state = 351 
+transfer_state = 271
+transfer_state = 272} 
+
+	set_autonomy = {
+		target = FHL
+		autonomous_state = autonomy_colony
+	}
+hidden_effect = {
+FHL = {
+set_politics = {
+	ruling_party = paternal_autocrat 
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+add_popularity = { ideology = paternal_autocrat popularity = 0.4}
+} }
+
+}
+}
+obeden_vosst_pcz = {
+		icon = generic_formable_nations
+
+		available = {
+			has_full_control_of_state = 88
+			has_full_control_of_state = 402
+}
+	
+		highlight_states = {
+ highlight_state_targets = { state = 88 } 
+}	
+visible = {
+OR = { 
+                    has_government = teocratic
+                    has_government = paternal_autocrat
+                    has_government = democratic
+} 
+not = { 88 = { is_core_of = ROOT } }
+not = { 402 = { is_core_of = ROOT } }
+}
+		cost = 100
+
+		fire_only_once = yes
+days_remove = 180 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {  
+
+PCZ = { transfer_state = 88 
+transfer_state = 402} 
+
+	set_autonomy = {
+		target = PCZ
+		autonomous_state = autonomy_colony
+	}
+hidden_effect = {
+PCZ = {
+set_politics = {
+	ruling_party = paternal_autocrat 
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+add_popularity = { ideology = paternal_autocrat popularity = 0.4}
+} }
+
+}
+}
+obeden_northen_rav = {
+		icon = generic_formable_nations
+
+		available = {
+has_country_flag = controll_all_northen_ravnines
+}
+		
+visible = {
+has_completed_focus = bnd_bnd_rash_goal
+}
+		#cost = 200
+
+		fire_only_once = yes
+days_remove = 180 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {
+set_cosmetic_tag =  BND_unifed
+add_political_power = 100
+
+
+}
+}
+obeden_rav = {
+		icon = generic_formable_nations
+
+		available = {
+has_country_flag = controll_all_ravnines
+}
+		
+visible = {
+AND = {
+OR = {
+has_idea = ravbol 
+has_idea = ravnines 
+}
+NOT = { tag = CMD }
+NOT = { tag = CUP }
+}
+}
+		#cost = 200
+
+		fire_only_once = yes
+days_remove = 180 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {
+set_cosmetic_tag =  CMD_unifed
+add_political_power = 100
+
+
+}
+}
+
+obeden_rav_trg = {
+		icon = generic_formable_nations
+
+		available = {
+has_full_control_of_state = 31
+}
+		
+visible = {
+AND = {
+OR = {
+has_idea = ravbol 
+has_idea = ravnines 
+}
+NOT = { tag = CMO }
+}
+}
+		cost = 25
+
+		fire_only_once = yes
+days_remove = 120 
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		remove_effect = {
+add_stability = 0.05
+set_capital = { state = 31 }
+
+}
+
+
+}
+
+
+
+##########
+}

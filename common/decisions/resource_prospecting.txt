@@ -1,0 +1,547 @@
+prospect_for_resources = {
+	develop_barbanty_tungsten_deposits = { #43 
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43 
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 43 
+			controls_state = 43 
+		}
+
+		visible = {
+			owns_state = 43 
+			controls_state = 43 
+			43 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			43 = { set_state_flag = shandong_aluminium_developed }
+			43 = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_uvrarithsk_tungsten_deposits = { #32
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 32
+			controls_state = 32
+		}
+
+		visible = {
+			owns_state = 32
+			controls_state = 32
+			32 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			32 = { set_state_flag = shandong_aluminium_developed }
+			32 = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_uvrarithsk_tungsten_deposits = { #67
+
+		icon = tungsten
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 67
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 67
+			controls_state = 67
+		}
+
+		visible = {
+			owns_state = 67
+			controls_state = 67
+			67 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = tungsten
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			67 = { set_state_flag = shandong_aluminium_developed }
+			67 = {
+				add_resource = {
+					type = tungsten
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_nij_mejdur_steel_deposits = { #108
+
+		icon = steel
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 108
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 108
+			controls_state = 108
+		}
+
+		visible = {
+			owns_state = 108
+			controls_state = 108
+			108 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = steel
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			108 = { set_state_flag = shandong_aluminium_developed }
+			108 = {
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_glashego_chromium_deposits = { #395
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 395
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 395
+			controls_state = 395
+		}
+
+		visible = {
+			owns_state = 395
+			controls_state = 395
+			395 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			395 = { set_state_flag = shandong_aluminium_developed }
+			395 = {
+				add_resource = {
+					type = chromium
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_sigard_chromium_deposits = { #202 
+
+		icon = chromium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 202 
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 202 
+			controls_state = 202 
+		}
+
+		visible = {
+			owns_state = 202 
+			controls_state = 202 
+			202 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = chromium
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			202 = { set_state_flag = shandong_aluminium_developed }
+			202 = {
+				add_resource = {
+					type = chromium
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_terezian_aluminium_deposits = { #39
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 39
+			controls_state = 39
+		}
+
+		visible = {
+			owns_state = 39
+			controls_state = 39
+			39 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			39 = { set_state_flag = shandong_aluminium_developed }
+			39 = {
+				add_resource = {
+					type = aluminium
+					amount = 3
+				}
+			}
+		}
+	}
+	develop_frislan_aluminium_deposits = { #356
+
+		icon = aluminium
+
+		allowed = {
+
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 356
+			}
+		}
+
+		available = {
+			has_tech = excavation3
+			num_of_civilian_factories_available_for_projects > 2
+			owns_state = 356
+			controls_state = 356
+		}
+
+		visible = {
+			owns_state = 356
+			controls_state = 356
+			356 = {
+				NOT = {
+					has_state_flag = shandong_aluminium_developed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 90
+
+		modifier = {
+			civilian_factory_use = 3
+		}
+
+		ai_will_do = {
+			base = 0.3 
+			modifier = {  # Too low PP
+				factor = 0.5
+					has_political_power < 80
+			}
+			modifier = { #We have plenty of PP, avanti!
+				factor = 3
+				has_political_power > 200
+			}
+			modifier = { #Running out of the stuff, need more!
+				factor = 5
+				has_resources_in_country = {
+					resource = aluminium
+					amount < 1
+				}
+			}
+		}
+		remove_effect = {
+			356 = { set_state_flag = shandong_aluminium_developed }
+			356 = {
+				add_resource = {
+					type = aluminium
+					amount = 3
+				}
+			}
+		}
+	}
+####################################
+}

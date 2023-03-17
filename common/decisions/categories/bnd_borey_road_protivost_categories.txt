@@ -1,0 +1,10 @@
+bnd_borey_road_protivost = {
+	icon = boreyput
+
+	# picture = 
+
+	allowed = { original_tag = ADM }
+
+	priority = 1000 
+ 
+}

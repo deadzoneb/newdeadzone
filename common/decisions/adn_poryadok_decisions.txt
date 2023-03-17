@@ -1,0 +1,117 @@
+adn_poryadok_decisions = { 
+
+adn_interg_sevz = {
+		icon = generic_nationalism
+
+		available = {
+			has_full_control_of_state = 264 
+			has_full_control_of_state = 265
+			has_full_control_of_state = 297 
+			has_full_control_of_state = 298 
+			has_full_control_of_state =  301
+			has_full_control_of_state =  300
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+
+has_completed_focus = adn_civil_war_memories
+tag = ADN
+
+OR = {
+not = { 264 = { is_core_of = ADN } }
+not = { 265 = { is_core_of = ADN } }
+not = { 297 = { is_core_of = ADN } }
+not = { 298 = { is_core_of = ADN } }
+not = { 301 = { is_core_of = ADN } }
+not = { 300 = { is_core_of = ADN } }  
+}
+}
+		cost = 30
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.3 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+ set_country_flag = adn_sevzap_int
+add_state_core = 264
+add_state_core = 265 
+add_state_core = 297
+add_state_core = 298
+add_state_core = 301
+add_state_core = 300
+
+
+
+}
+}
+ 
+
+adn_interg_sevv = {
+		icon = generic_nationalism
+
+		available = {
+			has_full_control_of_state = 100 
+			has_full_control_of_state = 308
+			has_full_control_of_state = 303 
+			has_full_control_of_state = 306 
+			has_full_control_of_state =  302
+			has_full_control_of_state =  304
+
+		check_variable={mdx > 50}
+}
+		
+visible = {
+has_completed_focus = adn_civil_war_memories
+tag = ADN
+
+OR = {
+not = { 100 = { is_core_of = ADN } }
+not = { 308 = { is_core_of = ADN } }
+not = { 303 = { is_core_of = ADN } }
+not = { 306 = { is_core_of = ADN } }
+not = { 302 = { is_core_of = ADN } }
+not = { 304 = { is_core_of = ADN } }  
+}
+}
+		cost = 30
+
+		fire_only_once = yes
+days_remove = 180 
+modifier = { political_power_cost = 0.3 }
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }
+}
+		remove_effect = {
+ 
+ set_country_flag = adn_sevvost_int
+add_state_core = 100
+add_state_core = 308
+add_state_core = 303
+add_state_core = 306
+add_state_core = 304
+add_state_core = 302 
+
+
+
+
+
+}
+}
+   
+
+}

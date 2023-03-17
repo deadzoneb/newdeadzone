@@ -1,0 +1,493 @@
+#Чтобы добавить новую личность, просто копируем один из блоков и заменяем lichnost1_sostoyanie в name и lich1 в check_variable\
+
+defined_text = {
+	name = inium_disloyal_dan11_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan1 = 1 }
+		}
+		localization_key = inium_disloyal_dan11
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan1 = 2 }
+		}
+		localization_key = inium_disloyal_dan12
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan21_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan2 = 1 }
+		}
+		localization_key = inium_disloyal_dan21
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan2 = 2 }
+		}
+		localization_key = inium_disloyal_dan22
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan31_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan3 = 1 }
+		}
+		localization_key = inium_disloyal_dan31
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan3 = 2 }
+		}
+		localization_key = inium_disloyal_dan32
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan41_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan4 = 1 }
+		}
+		localization_key = inium_disloyal_dan41
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan4 = 2 }
+		}
+		localization_key = inium_disloyal_dan42
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan51_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan5 = 1 }
+		}
+		localization_key = inium_disloyal_dan51
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan5 = 2 }
+		}
+		localization_key = inium_disloyal_dan52
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan61_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan6 = 1 }
+		}
+		localization_key = inium_disloyal_dan61
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan6 = 2 }
+		}
+		localization_key = inium_disloyal_dan62
+	} 
+}
+defined_text = {
+	name = inium_disloyal_dan71_sost
+	text = {
+		trigger = {
+			check_variable = { idisdan7 = 1 }
+		}
+		localization_key = inium_disloyal_dan71
+	}
+	text = {
+		trigger = {
+			check_variable = { idisdan7 = 2 }
+		}
+		localization_key = inium_disloyal_dan72
+	} 
+}
+############################
+defined_text = {
+	name = inium_loyal_dan11_sost
+	text = {
+		trigger = {
+			check_variable = { idan1 = 1 }
+		}
+		localization_key = inium_loyal_dan11
+	}
+	text = {
+		trigger = {
+			check_variable = { idan1 = 2 }
+		}
+		localization_key = inium_loyal_dan12
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan21_sost
+	text = {
+		trigger = {
+			check_variable = { idan2 = 1 }
+		}
+		localization_key = inium_loyal_dan21
+	}
+	text = {
+		trigger = {
+			check_variable = { idan2 = 2 }
+		}
+		localization_key = inium_loyal_dan22
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan31_sost
+	text = {
+		trigger = {
+			check_variable = { idan3 = 1 }
+		}
+		localization_key = inium_loyal_dan31
+	}
+	text = {
+		trigger = {
+			check_variable = { idan3 = 2 }
+		}
+		localization_key = inium_loyal_dan32
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan41_sost
+	text = {
+		trigger = {
+			check_variable = { idan4 = 1 }
+		}
+		localization_key = inium_loyal_dan41
+	}
+	text = {
+		trigger = {
+			check_variable = { idan4 = 2 }
+		}
+		localization_key = inium_loyal_dan42
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan51_sost
+	text = {
+		trigger = {
+			check_variable = { idan5 = 1 }
+		}
+		localization_key = inium_loyal_dan51
+	}
+	text = {
+		trigger = {
+			check_variable = { idan5 = 2 }
+		}
+		localization_key = inium_loyal_dan52
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan61_sost
+	text = {
+		trigger = {
+			check_variable = { idan6 = 1 }
+		}
+		localization_key = inium_loyal_dan61
+	}
+	text = {
+		trigger = {
+			check_variable = { idan6 = 2 }
+		}
+		localization_key = inium_loyal_dan62
+	} 
+}
+defined_text = {
+	name = inium_loyal_dan71_sost
+	text = {
+		trigger = {
+			check_variable = { idan7 = 1 }
+		}
+		localization_key = inium_loyal_dan71
+	}
+	text = {
+		trigger = {
+			check_variable = { idan7 = 2 }
+		}
+		localization_key = inium_loyal_dan72
+	} 
+}
+
+defined_text = {
+	name = inium_podch1_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich1 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich1 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich1 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich1 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich1 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich1 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+
+defined_text = {
+	name = inium_podch2_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich2 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich2 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich2 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich2 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich2 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich2 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+
+defined_text = {
+	name = inium_podch3_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich3 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich3 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich3 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich3 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich3 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich3 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+
+
+defined_text = {
+	name = inium_podch4_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich4 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich4 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich4 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich4 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich4 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich4 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+
+defined_text = {
+	name = inium_podch5_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich5 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich5 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich5 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich5 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich5 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich5 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+
+defined_text = {
+	name = inium_podch6_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich6 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich6 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich6 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich6 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich6 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich6 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}
+defined_text = {
+	name = inium_podch7_sostoyanie
+	text = {
+		trigger = {
+			check_variable = { lich7 = 1 }
+		}
+		localization_key = inium_podch_1s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich7 = 2 }
+		}
+		localization_key = inium_podch_2s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich7 = 3 }
+		}
+		localization_key = inium_podch_3s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich7 = 4 }
+		}
+		localization_key = inium_podch_4s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich7 = 5 }
+		}
+		localization_key = inium_podch_5s
+	}
+	text = {
+		trigger = {
+			check_variable = { lich7 = 6 }
+		}
+		localization_key = inium_podch_6s
+	}
+}

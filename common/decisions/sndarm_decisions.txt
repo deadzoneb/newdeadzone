@@ -1,0 +1,124 @@
+sndarm_decisions = { 
+
+	snd_army_ref1 = {
+
+		icon = generic_army_support
+
+		available = {
+has_army_experience > 10
+		}
+ 
+
+		visible = {
+			TAG = SAN
+has_completed_focus = SAN_ARMY_REORGANIZATION
+has_idea = Snd_ustar_army1 
+		}
+		
+		fire_only_once = yes
+days_remove = 90
+		 
+		modifier = {
+				political_power_cost = 0.2
+		}
+custom_cost_trigger = { has_army_experience > 10 } 
+custom_cost_text = army_xp_more_than_10 
+		
+		complete_effect = {
+
+			army_experience = -10
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 } 
+}
+		remove_effect = {
+ swap_ideas = {
+remove_idea = Snd_ustar_army1 
+add_idea = Snd_ustar_army2 
+}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	snd_army_ref2 = {
+
+		icon = generic_army_support
+
+		available = {
+has_army_experience > 10
+		}
+ 
+
+		visible = {
+			TAG = SAN
+has_completed_focus = SAN_ARMY_REORGANIZATION
+has_idea = Snd_ustar_army2 
+		}
+		
+		fire_only_once = yes
+days_remove = 90
+		
+		modifier = {
+				political_power_cost = 0.2
+		}
+custom_cost_trigger = { has_army_experience > 10 } 
+custom_cost_text = army_xp_more_than_10 
+		
+		complete_effect = {
+
+			army_experience = -10
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 } 
+}
+		remove_effect = {
+ swap_ideas = {
+remove_idea = Snd_ustar_army2 
+add_idea = Snd_ustar_army3 
+}
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	snd_army_ref3 = {
+
+		icon = generic_army_support
+
+		available = {
+has_army_experience > 10
+		}
+ 
+
+		visible = {
+			TAG = SAN
+has_completed_focus = SAN_ARMY_REORGANIZATION
+has_idea = Snd_ustar_army3 
+		}
+		
+		fire_only_once = yes
+days_remove = 90
+		
+		modifier = {
+				political_power_cost = 0.2
+		}
+custom_cost_trigger = { has_army_experience > 10 } 
+custom_cost_text = army_xp_more_than_10 
+		
+		complete_effect = {
+
+			army_experience = -20
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 } 
+}
+		remove_effect = { 
+remove_ideas = Snd_ustar_army3  
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+}

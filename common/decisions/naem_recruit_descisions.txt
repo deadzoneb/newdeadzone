@@ -1,0 +1,85 @@
+naem_recruit_descisions = {
+
+	naemniki_verb_tai = {
+
+		icon = eng_support_imperialist_coup
+
+		available = {  
+		check_variable={mdx  > 200}
+}
+
+days_remove = 30
+
+		highlight_states = {
+ highlight_state_targets = { state = 379 } 
+}
+		visible = {
+
+			has_full_control_of_state = 379 
+NOT = { has_global_flag = naemniki_tai }
+ 
+		}
+		
+		fire_only_once = yes
+		 complete_effect = { 
+		custom_effect_tooltip = babki_potrach200
+	add_to_variable = { var = mdx value = -200}
+set_country_flag = naemnici_prizv
+}
+		
+		cost = 15
+		remove_effect = {
+hidden_effect = { load_oob = TAI_wolves }
+set_global_flag = naemniki_tai 
+		custom_effect_tooltip = tai_volves_zaverb
+				  
+ 
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	naemniki_verb_lan = {
+
+		icon = eng_support_imperialist_coup
+
+		available = {  
+		check_variable={mdx  > 250}
+}
+
+days_remove = 30
+
+		highlight_states = {
+ highlight_state_targets = { state = 161 } 
+}
+		visible = {
+
+			has_full_control_of_state = 161 
+NOT = { tag = LRD } 
+NOT = { has_global_flag = naemniki_lan }
+ 
+		}
+		
+		fire_only_once = yes
+		 complete_effect = { 
+		custom_effect_tooltip = babki_potrach250
+	add_to_variable = { var = mdx value = -250}
+set_country_flag = naemnici_prizv
+}
+		
+		cost = 15
+		remove_effect = {
+hidden_effect = { load_oob = LAN_raiders }
+set_global_flag = naemniki_lan 
+		custom_effect_tooltip = LAN_raiders_zaverb
+				  
+ 
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}

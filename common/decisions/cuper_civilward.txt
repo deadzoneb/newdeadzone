@@ -1,0 +1,29 @@
+cuper_civilward = {
+	cupomn_civilwar_mission = {
+
+		icon = generic_civil_support
+		
+		allowed = {
+			tag = CUP
+		}
+		available = {
+NOT = { has_idea = omnicratic_protivostoyanie }
+   
+			}
+		
+is_good = no
+		days_mission_timeout = 180
+
+		activation = { 
+has_idea = omnicratic_protivostoyanie  
+							} 
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+ CUP = { country_event = {days = 7 id = brrkuper.3 } }
+
+		}
+	}
+}

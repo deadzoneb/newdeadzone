@@ -1,0 +1,9 @@
+tagronsk_powerfield_decisions = {
+	icon = trg_powerfield
+
+	#picture = GFX_decision_category_trg_powerfield
+
+	allowed = {
+	always = yes
+	}
+}

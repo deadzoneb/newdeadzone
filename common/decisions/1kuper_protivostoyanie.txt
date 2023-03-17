@@ -1,0 +1,147 @@
+	1kuper_protivostoyanie_desicions = {
+
+
+kuper_protivost_non = {
+		icon = generic_political_discourse
+
+		available = {
+		always = yes
+}
+		
+visible = {
+has_idea = generals_protivostoyanie 
+}
+		cost = 25
+		fire_only_once = no
+
+days_remove = 30
+		ai_will_do = {
+			factor = 1
+
+}
+		complete_effect = {
+custom_effect_tooltip = kuper_osudil_non
+	subtract_from_variable = { var = kupernonloy value = 5 }
+	add_to_variable = { var = kuperflyxloy value = 5 }
+	subtract_from_variable = { var = kupernonvl value = 5 }
+	add_to_variable = { var = kuperflyxvl value = 5 }
+}		
+}
+
+
+kuper_protivost_flux = {
+		icon = generic_political_discourse
+
+		available = {
+		always = yes
+}
+		
+visible = {
+has_idea = generals_protivostoyanie 
+}
+		cost = 25
+		fire_only_once = no
+
+days_remove = 30
+		ai_will_do = {
+			factor = 1
+
+}
+		complete_effect = {
+	add_to_variable = { var = kupernonloy value = 5 }
+	subtract_from_variable = { var = kuperflyxloy value = 5 }
+	add_to_variable = { var = kupernonvl value = 5 }
+	subtract_from_variable = { var = kuperflyxvl value = 5 }
+custom_effect_tooltip = kuper_osudil_flux
+
+}		
+}
+
+kuper_protivost_strength = {
+		icon = generic_political_discourse
+
+		available = {
+		always = yes
+}
+		
+visible = {
+has_idea = generals_protivostoyanie 
+}
+		cost = 25
+		fire_only_once = no
+
+days_remove = 30
+		ai_will_do = {
+			factor = 1
+
+}
+		complete_effect = {
+add_stability = -0.05
+	subtract_from_variable = { var = kupernonloy value = 2.5 }
+	subtract_from_variable = { var = kuperflyxloy value = 2.5 }
+	subtract_from_variable = { var = kupernonvl value = 5 }
+	subtract_from_variable = { var = kuperflyxvl value = 5 }
+custom_effect_tooltip = kuper_strength
+
+}		
+}
+
+kuper_protivost_podcup_non = {
+		icon = generic_political_discourse
+
+		available = {
+	check_variable={mdx > 25}
+}
+		
+visible = {
+has_idea = generals_protivostoyanie 
+}
+		cost = 25
+		fire_only_once = no
+
+days_remove = 30
+		ai_will_do = {
+			factor = 1
+
+}
+		complete_effect = {
+	add_to_variable = { var = kupernonloy value = 10 }
+	add_to_variable = { var = kupernonvl value = 5 }
+	subtract_from_variable = { var = mdx value = 25 }
+custom_effect_tooltip = kuper_podcup_non
+
+}		
+}
+
+kuper_protivost_podcup_flux = {
+		icon = generic_political_discourse
+
+		available = {
+	check_variable={mdx > 25}
+}
+		
+visible = {
+has_idea = generals_protivostoyanie 
+}
+		cost = 25
+		fire_only_once = no
+
+days_remove = 30
+		ai_will_do = {
+			factor = 1
+
+}
+		complete_effect = {
+	add_to_variable = { var = kuperflyxloy value = 10 }
+	add_to_variable = { var = kuperflyxvl value = 5 }
+	subtract_from_variable = { var = mdx value = 25 }
+custom_effect_tooltip = kuper_podcup_flyx
+
+}		
+}
+################################
+}
+
+
+
+

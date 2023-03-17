@@ -1,0 +1,11 @@
+bnd_borey_road_decision = {
+	icon = boreyput
+
+	# picture = 
+
+	allowed = { original_tag = BND }
+
+	priority = 1000 
+
+	visible_when_empty = yes
+}

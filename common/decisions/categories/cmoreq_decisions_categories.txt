@@ -1,0 +1,7 @@
+cmoreq_decisions = {
+	icon = generic_army_support
+
+	allowed = {
+	always = yes
+	}
+}

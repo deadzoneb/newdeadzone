@@ -1,0 +1,63 @@
+kom_danger_decisions = {
+
+	kom_danger_war = {
+
+		icon = generic_civil_support
+		
+		allowed = {
+			tag = KOM
+		}
+		available = {
+NOT = { has_full_control_of_state = 394 }
+   
+			}
+		
+is_good = no
+		days_mission_timeout = 360
+
+		activation = { 
+has_full_control_of_state = 394
+tag = KOM 
+							} 
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+ NRD = { country_event  = brr_komr.17  }
+
+		}
+	}
+	kom_danger_vzrivchatka = {
+
+		icon = generic_nationalism
+
+		available = {
+has_country_flag = kom_vzr_est
+		}
+
+
+		visible = {
+tag = KOM
+has_full_control_of_state = 394
+		}
+		
+		fire_only_once = yes
+		
+		cost = 25
+		
+		complete_effect = {
+ 
+				add_days_mission_timeout = {
+					mission = kom_danger_war 
+					days = 180
+				}
+ 
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+#############################
+}

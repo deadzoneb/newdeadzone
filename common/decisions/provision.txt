@@ -1,0 +1,108 @@
+	provision_desicions = {
+
+provision_razdacha = {
+		icon = generic_political_discourse
+
+		available = {
+		check_variable={dx > prov}
+#has_country_flag = mnogo_provision
+}
+		
+visible = {
+is_ai = yes
+}
+		cost = 10
+		fire_only_once = no
+		modifier = {
+				MONTHLY_POPULATION = 0.1
+		}
+days_remove = 90
+		days_re_enable = 120
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		complete_effect = {
+subtract_from_variable = { var = dx value = prov }
+add_stability = 0.02
+			custom_effect_tooltip = provizion_razdacha_effect
+
+}
+}
+provision_prodaja = {
+		icon = encryption_tech_2
+
+		available = {
+		check_variable={dx > prov}
+#has_country_flag = mnogo_provision
+}
+		
+visible = {
+is_ai = yes
+}
+		cost = 10
+		fire_only_once = no
+
+days_remove = 30
+		days_re_enable = 60
+		ai_will_do = {
+			factor = 10
+
+}
+		
+		complete_effect = {
+subtract_from_variable = { var = dx value = prov }
+	add_to_variable = { var = mdx value = provil}
+			custom_effect_tooltip = provizion_razdacha_effect
+			custom_effect_tooltip = provision_money_plus
+
+}
+}
+provision_bought_des = {
+		icon = encryption_tech_2
+
+		available = {
+		check_variable={mdx > prov}
+} 
+		
+visible = {
+is_ai = yes
+}
+		cost = 10
+		fire_only_once = no
+
+		days_re_enable = 90
+		ai_will_do = {
+			base = 0
+modifier = {
+add = 100
+has_idea = famine1
+}
+modifier = {
+add = 200
+has_idea = famine2
+} 
+modifier = {
+add = 500
+has_idea = famine3
+} 
+}
+		complete_effect = {
+
+				add_to_variable = { var = dx value = prov}
+subtract_from_variable = { var = mdx value = prov }
+			custom_effect_tooltip = provision_poluch_za_poc
+		custom_effect_tooltip = social_obespecheno
+
+
+}
+}
+
+
+################################
+}
+
+
+
+

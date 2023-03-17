@@ -1,0 +1,263 @@
+political_ideology_boost = { 
+
+	cinematograf_des = {
+
+		icon = generic_prepare_civil_war
+
+		available = {  
+				threat > 0.30 
+		check_variable={mdx > provil}
+		has_tech = cino_tech
+		}
+
+
+		visible = {
+			has_war_with_non_exiled_country = yes
+		}
+		
+		fire_only_once = yes 
+days_remove = 90
+		
+		cost = 50
+		
+		modifier = {
+			political_power_cost = 0.02
+		}
+		complete_effect = {
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+				add_war_support = 0.07
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	democratization_des = {
+
+		icon = generic_political_rally
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = democratic
+			democratic < 0.75
+OR = { 
+NOT = { TAG = CMO }
+AND = { 
+TAG = CMO
+			has_completed_focus = cmo_elections_verdye
+} }
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+			political_power_cost = 0.1
+				democratic_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	banditization_des = {
+
+		icon = generic_police_action
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = neutrality
+			neutrality < 0.75
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+			monthly_population = -0.1
+				neutrality_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	autocratization_des = {
+
+		icon = generic_speech
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = paternal_autocrat
+			paternal_autocrat < 0.75
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+			political_power_cost = 0.1
+				paternal_autocrat_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	communization_des = {
+
+		icon =  generic_factory
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = communism
+			communism < 0.75
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+ 			consumer_goods_factor = 0.05
+				communism_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	teocratization_des = {
+
+		icon =  hol_exchange_intelligence_data
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = teocratic
+			teocratic < 0.75
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+			political_power_cost = 0.1
+				teocratic_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	technocratization_des = {
+
+		icon =  generic_research
+
+		available = {
+		check_variable={mdx > provil}
+		check_variable={minflation > 0}
+		}
+
+
+		visible = {
+				has_government = fascism
+			fascism < 0.75
+		}
+		
+		fire_only_once = no
+		days_re_enable = 120
+days_remove = 180
+		
+		cost = 50
+		
+		modifier = {
+			
+				research_speed_factor = -0.03
+				fascism_drift = 0.05
+		}
+		complete_effect = {
+
+
+		custom_effect_tooltip = provil_potratil
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+############################
+}

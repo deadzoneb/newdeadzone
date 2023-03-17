@@ -1,0 +1,9 @@
+
+bandit_contrabanda = {
+	icon = great_patriotic_war
+ 
+
+	allowed = {
+	always = yes
+	}
+}

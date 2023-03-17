@@ -1,0 +1,130 @@
+cmoreq_decisions = {
+
+cmo_generic_speech = {
+		icon = generic_speech
+
+		available = {
+		check_variable={mdx > 30} 
+}
+		
+visible = { 
+has_completed_focus =  cmo_army_train
+}
+		cost = 50
+		fire_only_once = yes
+
+days_remove = 30
+modifier = { 
+political_power_cost = 0.5 
+} 
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = { 
+add_war_support = 0.02
+		custom_effect_tooltip = babki_minus30
+		subtract_from_variable = { var = mdx value = 30 }
+}
+
+		remove_effect = { 
+add_manpower = 200
+}
+}
+
+cmo_priz_noncit = {
+		icon = generic_political_discourse
+
+		available = {
+		check_variable={mdx > 30} 
+}
+		
+visible = { 
+has_completed_focus =  cmo_army_train
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 30
+modifier = { 
+political_power_cost = 0.3 
+} 
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = {
+add_stability = -0.02
+		custom_effect_tooltip = babki_minus30
+		subtract_from_variable = { var = mdx value = 30 }
+}
+
+		remove_effect = { 
+add_manpower = 200
+}
+}
+cmo_priz_patriot = {
+		icon = generic_disband_irregulars
+
+		available = {
+		check_variable={mdx > 30} 
+}
+		
+visible = { 
+has_completed_focus =  cmo_army_train
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 30
+modifier = { 
+political_power_cost = 0.3 
+} 
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = {
+add_war_support = -0.02
+		custom_effect_tooltip = babki_minus30
+		subtract_from_variable = { var = mdx value = 30 }
+}
+
+		remove_effect = { 
+add_manpower = 200
+}
+}
+cmo_priz_negod = {
+		icon = eng_trade_unions_support
+
+		available = {
+		check_variable={mdx > 30} 
+}
+		
+visible = { 
+has_completed_focus =  cmo_army_train
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 30
+modifier = { 
+political_power_cost = 0.5 
+} 
+		ai_will_do = {
+			factor = 10
+
+}
+		complete_effect = {
+
+		custom_effect_tooltip = babki_minus30
+		subtract_from_variable = { var = mdx value = 30 }
+}
+
+		remove_effect = { 
+add_manpower = 200
+}
+}
+
+#######################
+}

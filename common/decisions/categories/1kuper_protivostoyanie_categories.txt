@@ -1,0 +1,9 @@
+1kuper_protivostoyanie_desicions = {
+	icon = generic_army_support
+
+	#picture = GFX_decision_cat_picture_chi_infiltration
+
+	allowed = {
+	always = yes
+	}
+}

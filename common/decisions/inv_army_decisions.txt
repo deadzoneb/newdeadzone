@@ -1,0 +1,56 @@
+inv_army_decisions = {
+inv_podnyat_opolch = {
+		icon = generic_army_support
+
+		available = {
+  any_country = {
+has_war_with = INV
+num_of_factories > 40
+}
+}
+		
+visible = {
+has_idea = inv_militarism_focus 
+}
+		cost = 100
+		fire_only_once = yes
+ 
+		ai_will_do = {
+			factor = 15
+
+}
+		complete_effect = {
+hidden_effect = {
+	 remove_ideas = inv_militarism_focus 
+load_oob = INV_reservists
+}
+		custom_effect_tooltip = inv_reserv_prizvani
+}		
+}
+
+inv_podnyat_armiu = {
+		icon = generic_army_support
+
+		available = {
+  any_country = {
+has_war_with = INV
+num_of_factories > 100
+}
+}
+		
+visible = {
+has_idea = ini_army 
+}
+		cost = 150
+		fire_only_once = yes
+ 
+		ai_will_do = {
+			factor = 15
+
+}
+		complete_effect = {
+remove_ideas = ini_army 
+}		
+}
+
+}

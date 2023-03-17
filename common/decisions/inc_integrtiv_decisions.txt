@@ -1,0 +1,168 @@
+inc_integrtiv_decisions = {
+
+	political_disc_inc_rad = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_full_control_of_state = 134
+			has_full_control_of_state = 160
+			has_full_control_of_state = 135
+			has_full_control_of_state = 150
+			has_full_control_of_state = 163
+		check_variable={mdx > 30}
+		}
+
+		days_re_enable = 60
+days_remove = 30 
+
+modifier = { political_power_cost = 0.5 }
+		visible = {
+			TAG = INC
+has_completed_focus = inc_integration
+not = { 134 = { is_core_of = INC } }
+not = { 160 = { is_core_of = INC } }
+not = { 135 = { is_core_of = INC } }
+not = { 150 = { is_core_of = INC } }
+not = { 163 = { is_core_of = INC } }
+		}
+		
+		highlight_states = {
+ highlight_state_targets = { state = 134 } 
+}
+		fire_only_once = no 
+		
+		cost = 50
+		
+		complete_effect = { 
+custom_effect_tooltip = babki_minus30
+subtract_from_variable  = { var = mdx value = 30 }
+}
+		remove_effect = {
+ add_stability = 0.01
+ 134 = {  add_compliance = 5 }
+134 = {  add_resistance = -10 }
+ 160 = {  add_compliance = 5 }
+160 = {  add_resistance = -10 }
+ 135 = {  add_compliance = 5 }
+135 = {  add_resistance = -10 }
+ 150 = {  add_compliance = 5 }
+150 = {  add_resistance = -10 }
+ 163 = {  add_compliance = 5 }
+163 = {  add_resistance = -10 }
+	   
+           }
+ 
+		
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	political_disc_inc_pun = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_full_control_of_state = 158
+			has_full_control_of_state = 396
+			has_full_control_of_state = 162
+			has_full_control_of_state = 159
+		check_variable={mdx > 30}
+		}
+
+		days_re_enable = 60
+days_remove = 30 
+
+modifier = { political_power_cost = 0.3 }
+		visible = {
+			TAG = INC
+has_completed_focus = inc_integration
+not = { 158 = { is_core_of = INC } }
+not = { 162 = { is_core_of = INC } }
+not = { 159 = { is_core_of = INC } } 
+		}
+		
+		highlight_states = {
+ highlight_state_targets = { state = 158 } 
+}
+		fire_only_once = no 
+		
+		cost = 30
+		
+		complete_effect = { 
+custom_effect_tooltip = babki_minus30
+subtract_from_variable  = { var = mdx value = 30 }
+}
+		remove_effect = {
+ add_stability = 0.01
+ 158 = {  add_compliance = 5 }
+158 = {  add_resistance = -10 }
+ 396 = {  add_compliance = 5 }
+396 = {  add_resistance = -10 }
+ 162 = {  add_compliance = 5 }
+162 = {  add_resistance = -10 }
+ 159 = {  add_compliance = 5 }
+159 = {  add_resistance = -10 } 
+	   
+           }
+ 
+		
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	political_disc_inc_pus = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_full_control_of_state = 130
+			has_full_control_of_state = 136
+			has_full_control_of_state = 133
+		check_variable={mdx > 30}
+		}
+
+		days_re_enable = 60
+days_remove = 30 
+
+modifier = { political_power_cost = 0.3 }
+		visible = {
+			TAG = INC
+has_completed_focus = inc_integration
+not = { 130 = { is_core_of = INC } }
+not = { 136 = { is_core_of = INC } }
+not = { 133 = { is_core_of = INC } } 
+		}
+		
+		highlight_states = {
+ highlight_state_targets = { state = 130 } 
+}
+		fire_only_once = no 
+		
+		cost = 30
+		
+		complete_effect = { 
+custom_effect_tooltip = babki_minus30
+subtract_from_variable  = { var = mdx value = 30 }
+}
+		remove_effect = {
+ add_stability = 0.01
+ 130 = {  add_compliance = 5 }
+130 = {  add_resistance = -10 }
+ 136 = {  add_compliance = 5 }
+136 = {  add_resistance = -10 }
+ 133 = {  add_compliance = 5 }
+133 = {  add_resistance = -10 } 
+	   
+           }
+ 
+		
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+##################################
+}

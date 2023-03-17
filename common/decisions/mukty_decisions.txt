@@ -1,0 +1,60 @@
+mukty_decisions = {
+
+mukty_1 = {
+		icon = generic_prepare_civil_war
+
+		available = {
+has_manpower > 300
+}
+		
+visible = {
+tag = CMT
+country_exists = CMD
+}
+		cost = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+
+}
+		complete_effect = {
+add_manpower = -300
+				add_autonomy_ratio = {
+					value = 0.05
+					localization = uk_australia_focus
+				}
+CMD = { country_event = {days = 2 id = brrmukty.8  } }
+}	
+}
+
+mukty_2 = {
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_equipment = { infantry_equipment > 299 }
+}
+		
+visible = {
+tag = CMT
+country_exists = CMD
+}
+		cost = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+
+}
+		complete_effect = {
+add_equipment_to_stockpile = { type = infantry_equipment amount = -300  }
+				add_autonomy_ratio = {
+					value = 0.05
+					localization = uk_australia_focus
+				}
+CMD = { country_event = {days = 2 id = brrmukty.9  } }
+}	
+}
+
+
+}

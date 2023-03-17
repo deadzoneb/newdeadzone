@@ -1,0 +1,255 @@
+gil_restore_avalonia_decisions = { 
+
+	gil_rest_avalonia = {
+
+		icon = encryption_tech_2
+
+		available = { 
+has_full_control_of_state = 380
+has_full_control_of_state = 280
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+		}
+		
+		fire_only_once = yes 
+		
+		cost = 50
+		
+		complete_effect = {
+ RPK = { transfer_state = 380
+transfer_state = 280
+set_cosmetic_tag = RPK_GIL}
+                             set_autonomy = {
+		target = RPK
+		autonomy_state = autonomy_integrated_puppet
+		freedom_level = 0.2
+                                      }
+if = { limit = { has_full_control_of_state = 397 } 
+RPK = { transfer_state = 397 } }
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	gil_rest_dob_lir = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL }
+has_full_control_of_state = 353
+has_full_control_of_state = 281
+has_full_control_of_state = 336
+has_full_control_of_state = 337
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+		}
+		
+		fire_only_once = yes 
+		
+		cost = 100
+		
+		complete_effect = { 
+ RPK = { transfer_state = 353
+transfer_state = 281
+transfer_state = 336
+transfer_state = 337
+}
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	gil_rest_integr_lir = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL 
+has_full_control_of_state = 353
+has_full_control_of_state = 281
+has_full_control_of_state = 336
+has_full_control_of_state = 337
+}
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+OR = { 
+not = { 353 = { is_core_of = RPK } } 
+not = { 281 = { is_core_of = RPK } } 
+not = { 336 = { is_core_of = RPK } } 
+not = { 337 = { is_core_of = RPK } } 
+}
+		}
+		
+		fire_only_once = yes 
+		days_remove = 30
+		cost = 100
+		
+		complete_effect = { 
+
+	}
+		remove_effect = { 
+ 353 = {  add_compliance = 10 }
+353 = {  add_resistance = -10 }
+ 281 = {  add_compliance = 10 }
+281 = {  add_resistance = -10 }
+ 336 = {  add_compliance = 10 }
+336 = {  add_resistance = -10 }
+ 337 = {  add_compliance = 10 }
+337 = {  add_resistance = -10 }
+
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	gil_rest_dob_tai = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL }
+OR = {
+has_full_control_of_state = 379 
+TAI = { is_subject_of = GIL }
+}
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+		}
+		
+		fire_only_once = yes 
+		
+		cost = 20
+		
+		complete_effect = { 
+ RPK = { transfer_state = 379 }
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	gil_rest_integr_tai = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL 
+has_full_control_of_state = 379 
+}
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus 
+not = { 379 = { is_core_of = RPK } }    
+		}
+		
+		fire_only_once = yes 
+		days_remove = 30
+		cost = 20
+		
+		complete_effect = { 
+
+	}
+		remove_effect = { 
+ 379 = {  add_compliance = 10 }
+379 = {  add_resistance = -10 } 
+
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	gil_rest_dob_ldr = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL }
+has_full_control_of_state = 279 
+has_full_control_of_state = 381 
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+		}
+		
+		fire_only_once = yes 
+		
+		cost = 50
+		
+		complete_effect = { 
+ RPK = { transfer_state = 279 
+ transfer_state = 381 
+}
+if = { limit = { has_full_control_of_state = 397 } 
+RPK = { transfer_state = 397 } }
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	gil_rest_integr_ldr = {
+
+		icon = encryption_tech_2
+
+		available = { 
+RPK = { is_subject_of = GIL  
+has_full_control_of_state = 279 
+has_full_control_of_state = 381 
+has_full_control_of_state = 397 
+}
+		}
+
+
+		visible = {
+			has_completed_focus = gil_rpk_flag_focus
+OR = { 
+not = { 279 = { is_core_of = RPK } } 
+not = { 381 = { is_core_of = RPK } } 
+not = { 397 = { is_core_of = RPK } }  
+}
+		}
+		
+		fire_only_once = yes 
+		days_remove = 30
+		cost = 50
+		
+		complete_effect = { 
+
+	}
+		remove_effect = { 
+ 279 = {  add_compliance = 10 }
+279 = {  add_resistance = -10 }
+ 381 = {  add_compliance = 10 }
+381 = {  add_resistance = -10 }
+ 397 = {  add_compliance = 10 }
+397 = {  add_resistance = -10 } 
+
+	}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}

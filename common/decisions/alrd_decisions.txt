@@ -1,0 +1,38 @@
+alrd_decisions = {
+
+	lrd_civilwar_mission = {
+
+		icon = generic_civil_support
+		
+		allowed = {
+			tag = LRD
+		}
+		available = {
+
+	NOT = {
+							has_idea = LRD_vosst 
+							}
+				
+			}
+		
+is_good = no
+		days_mission_timeout = 365
+
+		activation = {
+							has_idea = LRD_vosst
+							}
+		visible = {
+							has_idea = LRD_vosst
+							}
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+			
+LRD = { country_event = {days = 3 id = brrlords.6  } }
+			
+
+		}
+	}
+}

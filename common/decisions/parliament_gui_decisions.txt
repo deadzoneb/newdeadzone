@@ -1,0 +1,220 @@
+parliament_gui_decision_category = {
+
+adn_parlament_lobbyng = {
+		icon = generic_political_discourse
+
+		available = {
+ check_variable = { parliament_seat_array^temp_array^1 > 10}
+}
+		
+visible = {
+ 
+tag = ADN
+ 
+}
+		cost = 50
+
+		fire_only_once = no
+days_remove = 90 
+modifier = { political_power_cost = 0.5 }
+		ai_will_do = {
+			factor = 10
+
+} 
+		remove_effect = {
+			custom_effect_tooltip = adn_10_seats
+  hidden_effect = {
+		random_list = {
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 7 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 8 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 9 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 10 }
+				modify_parliament_seat = yes
+				}
+           } }
+
+}
+}
+adn_parlament_speach = {
+		icon = generic_speech
+
+		available = {
+ check_variable = { parliament_seat_array^temp_array^1 > 10}
+ 
+}
+		
+visible = {
+ 
+tag = ADN
+ 
+}
+		cost = 50
+
+		fire_only_once = no
+days_remove = 30  
+        days_re_enable = 90
+		ai_will_do = {
+			factor = 10
+
+} 
+		remove_effect = {
+			add_stability = 0.02
+
+
+			custom_effect_tooltip = adn_p6_seats
+  hidden_effect = {
+		random_list = {
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 3 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 4 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 5 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 6 }
+				modify_parliament_seat = yes
+				}
+           } }
+
+}
+}
+adn_parlament_sdelka = {
+		icon = eng_trade_unions_support
+
+		available = {
+		check_variable={mdx > 50}
+ check_variable = { parliament_seat_array^temp_array^1 > 10}
+}
+		
+visible = {
+ 
+tag = ADN
+ 
+}
+		cost = 25
+
+		fire_only_once = no
+days_remove = 30  
+        days_re_enable = 90
+		ai_will_do = {
+			factor = 10
+
+} 
+
+		complete_effect = {
+			
+		custom_effect_tooltip = potratit50
+		subtract_from_variable = { var = mdx value = 50 }	
+			
+		}
+		remove_effect = { 
+
+
+			custom_effect_tooltip = adn_p6_seats
+  hidden_effect = {
+		random_list = {
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 3 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 4 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 5 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 2 }
+				set_temp_variable = { temp_seats = 6 }
+				modify_parliament_seat = yes
+				}
+           } }
+
+}
+}
+
+	adn_parlament_opposition = {
+
+		icon = generic_political_rally
+		
+		allowed = {
+			tag = ADN
+		}
+		available = {
+has_stability > 0.5
+   
+			}
+		
+is_good = no
+		days_mission_timeout = 90
+
+		activation = { has_stability < 0.5 } 
+		complete_effect = {
+				
+			
+		}
+		timeout_effect = {
+add_political_power = -15
+			custom_effect_tooltip = adn_min6_seats
+  hidden_effect = {
+		random_list = {
+				25 = {
+	 				set_temp_variable = { temp_member = 1 }
+				set_temp_variable = { temp_seats = 3 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 1 }
+				set_temp_variable = { temp_seats = 4 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 1 }
+				set_temp_variable = { temp_seats = 5 }
+				modify_parliament_seat = yes
+				}
+				25 = {
+	 				set_temp_variable = { temp_member = 1 }
+				set_temp_variable = { temp_seats = 6 }
+				modify_parliament_seat = yes
+				}
+           } }
+country_event = { days = 5 id = brreden.21  }
+		   if = { limit = { AND = {
+		   check_variable = { parliament_seat_array^temp_array^1 > 150} 
+		   NOT = { has_country_flag = adn_vosst_sverch }
+		   } }
+		   country_event = { days = 10 id = brreden.17  } } 
+	}
+ 
+
+}

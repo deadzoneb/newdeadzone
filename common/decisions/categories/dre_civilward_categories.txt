@@ -1,0 +1,8 @@
+dre_civilward = {
+	#icon = generic_economy
+ 
+
+	allowed = {
+	always = yes
+	}
+}

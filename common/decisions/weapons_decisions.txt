@@ -1,0 +1,168 @@
+weapons_desicions = {
+	voenn_mannev = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+		check_variable={mdx > provil }
+		}
+
+		visible = {
+is_ai = yes
+		}
+		
+		fire_only_once = no
+days_remove = 60
+        days_re_enable = 120
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = parad_proveden
+	subtract_from_variable = { var = mdx value = provil }
+		}
+		remove_effect = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	buy_naemn = {
+
+		icon = generic_army_support
+
+		available = {
+		check_variable={mdx > prov }
+		}
+
+		visible = {
+is_ai = yes
+		}
+		
+		fire_only_once = no
+days_remove = 60
+        days_re_enable = 60
+		
+		cost = 20
+		
+		complete_effect = {
+
+		custom_effect_tooltip = social_obespecheno
+	subtract_from_variable = { var = mdx value = prov }
+		}
+		remove_effect = {
+			add_manpower = naem 
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	buy_rifles = {
+
+		icon = encryption_tech_2
+
+		available = {
+		check_variable={mdx > prov }
+		}
+
+		visible = {
+is_ai = yes
+		}
+		
+		fire_only_once = no
+days_remove = 60
+        days_re_enable = 60
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = social_obespecheno
+	subtract_from_variable = { var = mdx value = prov }
+}
+		remove_effect = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = proarmfix  }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	buy_doposn = {
+
+		icon = encryption_tech_2
+
+		available = {
+		check_variable={mdx > prov }
+has_tech = tech_support
+		}
+
+		visible = {
+has_tech = tech_support
+is_ai = yes
+		}
+		
+		fire_only_once = no
+days_remove = 60
+        days_re_enable = 60
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = social_obespecheno
+	subtract_from_variable = { var = mdx value = prov }
+}
+		remove_effect = {
+			add_equipment_to_stockpile = { type = support_equipment amount = prodop }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	buy_transport = {
+
+		icon = encryption_tech_2
+
+		available = {
+		check_variable={mdx > prov }
+has_tech = motorised_infantry
+		}
+
+		visible = {
+has_tech = motorised_infantry
+is_ai = yes
+		}
+		
+		fire_only_once = no
+days_remove = 60
+        days_re_enable = 60
+		
+		cost = 10
+		
+		complete_effect = {
+
+		custom_effect_tooltip = social_obespecheno
+	subtract_from_variable = { var = mdx value = prov }
+}
+		remove_effect = {
+			add_equipment_to_stockpile = { type = motorized_equipment amount = protra }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,522 @@
+domance_cmd_decisions = {
+
+
+
+cmd_domance_povden_zah = {
+		icon = generic_nationalism
+
+		available = { 
+any_state = {
+is_owned_by = RUN
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = RUN
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = RUN
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_reh_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = REH
+any_state = {
+is_owned_by = REH
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = REH
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = REH
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_cup_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = CUP
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = CUP
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = CUP
+type = annex_everything
+}
+}
+}
+cmd_domance_exb_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = EXB
+any_state = {
+is_owned_by = EXB
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = EXB
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = EXB
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_ruh_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = RUH
+any_state = {
+is_owned_by = RUH
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = RUH
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = RUH
+type = annex_everything
+}
+}
+}
+
+cmd_domance_urr_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = URR
+any_state = {
+is_owned_by = URR
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = URR
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		
+		remove_effect = {
+create_wargoal = {
+target = URR
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_kty_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = KTY
+any_state = {
+is_owned_by = KTY
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+tag = cmd
+country_exists = KTY
+has_completed_focus = cmd_domination_on_the_ravnines
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = KTY
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_rup_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = RUP
+any_state = {
+is_owned_by = RUP
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = RUP
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = RUP
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_fre_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = FRE
+any_state = {
+is_owned_by = FRE
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = FRE
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = FRE
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_far_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = FAR
+any_state = {
+is_owned_by = FAR
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = FAR
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = FAR
+type = annex_everything
+}
+}
+}
+
+cmd_domance_adm_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = ADM
+any_state = {
+is_owned_by = ADM 
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = ADM
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = ADM
+type = annex_everything
+}
+}
+}
+
+cmd_domance_trz_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = TRZ
+any_state = {
+is_owned_by = TRZ
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = TRZ
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = TRZ
+type = annex_everything
+}
+}
+}
+
+
+cmd_domance_fsl_zah = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_domination_on_the_ravnines
+country_exists = FSL
+any_state = {
+is_owned_by = FSL
+any_neighbor_state = {
+is_owned_by = CMD
+} }
+}
+		
+visible = {
+has_completed_focus = cmd_domination_on_the_ravnines
+tag = cmd
+country_exists = FSL
+}
+		cost = 25
+		fire_only_once = yes
+
+days_remove = 60
+		ai_will_do = {
+			factor = 30
+
+}
+		modifier = {
+				political_power_cost = 0.15
+		}
+		
+		remove_effect = {
+create_wargoal = {
+target = FSL
+type = annex_everything
+}
+}
+}
+
+cmd_domance_cupcmd = {
+		icon = generic_nationalism
+
+		available = {
+has_completed_focus = cmd_kuper_industrial_deal
+country_exists = CUP 
+is_in_faction_with = CUP
+}
+		
+visible = {
+has_completed_focus = cmd_kuper_industrial_deal
+tag = cmd
+} 
+		fire_only_once = yes
+ 
+		ai_will_do = {
+			factor = 30
+
+} 
+		
+		complete_effect = {
+country_event = {days = 1 id = brragency.32  }
+}
+}
+
+####################################
+}
