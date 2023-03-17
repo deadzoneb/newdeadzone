@@ -1,9 +1,0 @@
-
-aden_civilward = {
-	icon = great_patriotic_war
- 
-
-	allowed = {
-	always = yes
-	}
-}

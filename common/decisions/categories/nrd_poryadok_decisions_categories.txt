@@ -1,9 +1,0 @@
-nrd_poryadok_decisions = {
-	icon = generic_formable_nations
-
-	picture = generic_formable_nations
-
-	allowed = {
-	always = yes
-	}
-}

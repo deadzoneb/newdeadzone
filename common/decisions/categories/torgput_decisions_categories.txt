@@ -1,9 +1,0 @@
-torgput_decisions = {
-	icon = generic_economy
-
-	#picture = GFX_decision_cat_picture_chi_infiltration
-
-	allowed = {
-	always = yes
-	}
-}

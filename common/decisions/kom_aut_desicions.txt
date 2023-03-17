@@ -1,3 +1,0 @@
-kom_aut_desicions = {
-
-}

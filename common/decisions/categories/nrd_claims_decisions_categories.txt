@@ -1,8 +1,0 @@
-nrd_claims_decisions = {
-	icon = infiltration
- 
-
-	allowed = {
-	always = yes
-	}
-}

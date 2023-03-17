@@ -1,9 +1,0 @@
-mejur_crisis_decisions = {
-	icon = generic_army_support
-
-	#picture = GFX_decision_cat_picture_chi_infiltration
-
-	allowed = {
-	always = yes
-	}
-}
