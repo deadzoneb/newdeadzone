@@ -1,10 +1,10 @@
 capital = 134
 
-oob = "MIL_2005"
+oob = "MYS_2005"
 
 set_research_slots = 2
 
-recruit_character = MIL_Captain_Tikhonov
+recruit_character = MYS_Alexander_Degtyarev
 
 set_technology = {
 	infantry_weapons = 1
