@@ -80,7 +80,7 @@
  SIN_fanaticism_party:0 "Греховцы"
  MER_individualism:0 "Группа Лешего"
  MER_individualism_party:0 "Наёмники"
- STS_individualism:0 "Группа Бармена"
+ STS_individualism:0 "Одиночки"
  STS_individualism_party:0 "Совет Бара"
  MSE_individualism:0 "Синдикат наемников"
  MSE_individualism_party:0 "Штаб-квартира Синдиката"
@@ -138,4 +138,8 @@
  NBT_individualism:0 "Набат" 
  VRT_order:0 "Варта"
  FLM_fanaticism:0 "Пламя"
+ AVE_anarchism:0 "Мстители"
+ TGP_individualism:0 "Группа Танго"
+ 
+ 
  
