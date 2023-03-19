@@ -1,10 +1,10 @@
-capital = 466
+capital = 394
 
-oob = "VTR_2005"
+oob = "WIN_2005"
 
 set_research_slots = 2
 
-recruit_character = VTR_Besyak
+recruit_character = WIN_Zheka_Lord
 
 set_technology = {
 	infantry_weapons = 1
@@ -20,12 +20,12 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = individualism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	anarchism = 100
+	individualism = 100
 }
