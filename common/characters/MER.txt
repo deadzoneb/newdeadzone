@@ -1,15 +1,15 @@
 characters = {
-	MER_Volkodav = { #MER
-		name = MER_Volkodav
+	MER_Leshii = { #MER
+		name = MER_Leshii
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_MER_Volkodav"
+				large = "GFX_portrait_MER_Leshii"
 			}
 		}
 		country_leader = {
 			ideology = mercenaries
 			traits={  }
-			expire = "1950.1.1.1"
+			expire = "2014.1.1.1"
 			id = -1
 		}
 	}

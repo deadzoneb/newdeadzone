@@ -1,16 +1,17 @@
 characters = {
-	PTM_Mervyn = { #PTM
-		name = PTM_Mervyn 
+	PTM_Merwin = { #PTM
+		name = PTM_Merwin
+
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_PTM_Mervyn"
+				large = "GFX_portrait_PTM_Merwin"
 			}
 		}
 		country_leader = {
 			ideology = monolit
 			traits={  }
-			expire = ""
+			expire = "2014.1.1.1"
 			id = -1
-		}	
+		}
 	}
 }

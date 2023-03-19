@@ -1,5 +1,5 @@
 characters = {
-	MDS_Bes = { #Bes
+	MDS_Bes = { #MDS
 		name = MDS_Bes
 		portraits = {
 			civilian = {
@@ -7,9 +7,9 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = bandits
+			ideology = banditry
 			traits={  }
-			expire = "1950.1.1.1"
+			expire = "2014.1.1.1"
 			id = -1
 		}
 	}

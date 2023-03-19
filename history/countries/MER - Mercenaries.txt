@@ -1,4 +1,4 @@
-capital = 252
+capital = 673
 
 oob = "MER_2005"
 
@@ -21,9 +21,9 @@ set_technology = {
 
 set_politics = {
 	ruling_party = individualism
-	last_election = "1936.1.1"
+	last_election = "2005.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

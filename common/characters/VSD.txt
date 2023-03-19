@@ -1,6 +1,6 @@
 characters = {
 	VSD_Volk = { #VSD
-		name = VSD_Volk 
+		name = VSD_Volk
 		portraits = {
 			civilian = {
 				large = "GFX_portrait_VSD_Volk"
@@ -9,8 +9,8 @@ characters = {
 		country_leader = {
 			ideology = stalkers
 			traits={  }
-			expire = ""
+			expire = "2014.1.1.1"
 			id = -1
-		}	
+		}
 	}
 }

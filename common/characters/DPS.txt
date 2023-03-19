@@ -1,6 +1,6 @@
 characters = {
 	DPS_Dikiy_Napr = { #DPS
-		name = DPS_Dikiy_Napr 
+		name = DPS_Dikiy_Napr
 		portraits = {
 			civilian = {
 				large = "GFX_portrait_DPS_Dikiy_Napr"
@@ -9,8 +9,8 @@ characters = {
 		country_leader = {
 			ideology = stalkers
 			traits={  }
-			expire = "1944.1.1.1"
+			expire = "2014.1.1.1"
 			id = -1
-		}	
+		}
 	}
 }

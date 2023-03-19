@@ -1,16 +1,16 @@
 characters = {
-	SSD_Spartacus = { #SSD
-		name = SSD_Spartacus
+	STS_Barmen = { #STS
+		name = STS_Barmen
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_SSD_Spartacus"
+				large = "GFX_portrait_STS_Barmen"
 			}
 		}
 		country_leader = {
 			ideology = stalkers
 			traits={  }
-			expire = ""
+			expire = "2014.1.1.1"
 			id = -1
-		}	
+		}
 	}
 }

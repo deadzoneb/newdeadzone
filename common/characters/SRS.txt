@@ -1,0 +1,16 @@
+characters = {
+	SRS_Cap = { #SRS
+		name = SRS_Cap
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_SRS_Cap"
+			}
+		}
+		country_leader = {
+			ideology = stalkers
+			traits={  }
+			expire = "2014.1.1.1"
+			id = -1
+		}
+	}
+}

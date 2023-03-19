@@ -1,15 +1,15 @@
 characters = {
-	OCS_Kruk = { #OCS
-		name = OCS_Kruk
+	OCS_Bosyak = { #OCS
+		name = OCS_Bosyak
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_OCS_Kruk"
+				large = "GFX_portrait_OCS_Bosyak"
 			}
 		}
 		country_leader = {
-			ideology = renegades
+			ideology = banditry
 			traits={  }
-			expire = "1950.1.1.1"
+			expire = "2014.1.1.1"
 			id = -1
 		}
 	}
