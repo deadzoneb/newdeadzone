@@ -104,4 +104,139 @@ spriteTypes = {
 		name = "GFX_portrait_MER_Leshii"
 		texturefile = "gfx/leaders/MER/MER_Leshii.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_MIL_Captain_Tikhonov"
+		texturefile = "gfx/leaders/MIL/MIL_Captain_Tikhonov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MNT_Haron"
+		texturefile = "gfx/leaders/MNT/MNT_Haron.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MRS_Miner"
+		texturefile = "gfx/leaders/MRS/MRS_Miner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MSE_Dushman"
+		texturefile = "gfx/leaders/MSE/MSE_Dushman.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MYS_Alexander_Degtyarev"
+		texturefile = "gfx/leaders/MYS/MYS_Alexander_Degtyarev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NBT_Captain_Kuznetsov"
+		texturefile = "gfx/leaders/NBT/NBT_Captain_Kuznetsov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NTS_Father_Valerian"
+		texturefile = "gfx/leaders/NTS/NTS_Father_Valerian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_OCS_Bosyak"
+		texturefile = "gfx/leaders/OCS/OCS_Bosyak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_OGP_Orest"
+		texturefile = "gfx/leaders/OGP/OGP_Orest.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRH_Gromov"
+		texturefile = "gfx/leaders/PRH/PRH_Gromov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PSY_Major_Khaletsky"
+		texturefile = "gfx/leaders/PSY/PSY_Major_Khaletsky.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PTM_Merwin"
+		texturefile = "gfx/leaders/PTM/PTM_Merwin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_REN_Kosoy"
+		texturefile = "gfx/leaders/REN/REN_Kosoy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SCS_German"
+		texturefile = "gfx/leaders/SCS/SCS_German.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SIN_Raven"
+		texturefile = "gfx/leaders/SIN/SIN_Raven.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SKG_Shishak"
+		texturefile = "gfx/leaders/SKG/SKG_Shishak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SNG_Sultan"
+		texturefile = "gfx/leaders/SNG/SNG_Sultan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SRG_Death"
+		texturefile = "gfx/leaders/SRG/SRG_Death.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SRS_Cap"
+		texturefile = "gfx/leaders/SRS/SRS_Cap.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SSD_Spartacus"
+		texturefile = "gfx/leaders/SSD/SSD_Spartacus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_STS_Barmen"
+		texturefile = "gfx/leaders/STS/STS_Barmen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TGP_Tango"
+		texturefile = "gfx/leaders/TGP/TGP_Tango.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_VRT_Alexander_Korshunov"
+		texturefile = "gfx/leaders/VRT/VRT_Alexander_Korshunov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_VSD_Volk"
+		texturefile = "gfx/leaders/VSD/VSD_Volk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_VUS_Hoag"
+		texturefile = "gfx/leaders/VUS/VUS_Hoag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_WIN_Zheka_Lord"
+		texturefile = "gfx/leaders/WIN/WIN_Zheka_Lord.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_YAG_Yoga"
+		texturefile = "gfx/leaders/YAG/YAG_Yoga.dds"
+	}
 }
