@@ -76,6 +76,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_FRE_Chekhov"
+		texturefile = "gfx/leaders/FRE/FRE_Chekhov.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_portrait_FSD_Loki"
 		texturefile = "gfx/leaders/FSD/FSD_Loki.dds"
 	}
