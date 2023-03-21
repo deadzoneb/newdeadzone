@@ -1,0 +1,126 @@
+﻿division_template = {
+	name = "Black Slugs Squad"
+	division_names_group = SRG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1464
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}	
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3945
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3328
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11884
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7178
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6634
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3626
+		division_template = "Black Slugs Squad"
+		start_experience_factor = 0.50
+		start_equipment_factor = 0.50
+		start_manpower_factor = 0.50
+
+	}
+}
+
+add_equipment_production = {
+	equipment = {
+		type = infantry_equipment_0
+		creator = "SRG"
+	}
+	requested_factories = 1
+	progress = 0.86
+	efficiency = 100
+
+	}
+}

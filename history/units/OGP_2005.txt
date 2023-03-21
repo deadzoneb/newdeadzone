@@ -1,0 +1,82 @@
+﻿division_template = {
+	name = "Orest Group Squad"
+	division_names_group = OGP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8013
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.80
+		start_manpower_factor = 1.00
+
+	}
+}	
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11675
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.80
+		start_manpower_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11609
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.80
+		start_equipment_factor = 0.80
+		start_manpower_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3398
+		division_template = "Orest Group Squad"
+		start_experience_factor = 0.60
+		start_equipment_factor = 0.60
+		start_manpower_factor = 1.00
+
+	}
+}
+
+add_equipment_production = {
+	equipment = {
+		type = infantry_equipment_0
+		creator = "OGP"
+	}
+	requested_factories = 1
+	progress = 0.86
+	efficiency = 100
+
+	}
+}

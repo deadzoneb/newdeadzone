@@ -9,5 +9,11 @@ state={
 	history={
 		owner = CRS
 		victory_points = { 12709 30 }
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 		add_core_of = CRS
 }

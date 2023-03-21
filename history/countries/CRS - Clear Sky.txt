@@ -20,7 +20,7 @@ set_technology = {
 }
 	add_equipment_to_stockpile = {
 		type = infantry_equipment
-		amount = 20
+		amount = 50
 			}
 
 set_politics = {
