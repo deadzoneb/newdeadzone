@@ -30,4 +30,8 @@ set_popularities = {
 	anarchism = 100
 }
 
+declare_war_on = {
+target = CRS
+type = annex_everything
+}
 
