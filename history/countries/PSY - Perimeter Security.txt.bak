@@ -1,10 +1,10 @@
-capital = 745
+capital = 443
 
-oob = "ECO_2005"
+oob = "PSY_2005"
 
 set_research_slots = 2
 
-recruit_character = ECO_Saharov
+recruit_character = PSY_Major_Khaletsky
 
 set_technology = {
 	infantry_weapons = 1
@@ -20,16 +20,27 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = science
+	ruling_party = order
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	science = 100
+	order = 100
 }
 
-add_ideas = {
-mobilize_minors
+create_faction = State
+add_to_faction = MYS
+add_to_faction = ECO
+add_to_faction = SCS
+add_to_faction = MIL
+add_to_faction = PRH
+
+diplomatic_relation = {
+	country = DUT
+	relation = non_aggression_pact
+	active = no
 }
+
+non_aggression_pact = DUT

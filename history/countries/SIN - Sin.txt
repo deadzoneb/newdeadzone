@@ -29,3 +29,15 @@ set_politics = {
 set_popularities = {
 	fanaticism = 100
 }
+
+puppet = MRS
+
+declare_war_on = {
+target = NBT
+type = annex_everything
+}
+
+declare_war_on = {
+target = MDS
+type = annex_everything
+}

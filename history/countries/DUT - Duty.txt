@@ -30,4 +30,7 @@ set_popularities = {
 	order = 100
 }
 
+add_ideas = {
+mobilize_majors
+}
 

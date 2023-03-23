@@ -29,3 +29,13 @@ set_politics = {
 set_popularities = {
 	individualism = 100
 }
+
+give_military_access = MDS
+
+diplomatic_relation = {
+	country = MDS
+	relation = non_aggression_pact
+	active = yes
+}
+
+non_aggression_pact = MDS

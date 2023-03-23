@@ -34,4 +34,3 @@ declare_war_on = {
 target = CRS
 type = annex_everything
 }
-

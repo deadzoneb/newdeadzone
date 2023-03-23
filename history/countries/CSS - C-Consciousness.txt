@@ -29,3 +29,11 @@ set_politics = {
 set_popularities = {
 	fanaticism = 100
 }
+
+puppet = MNT
+puppet = ILN
+
+create_faction = Noosphere
+add_to_faction = MNT
+add_to_faction = ILN
+add_to_faction = PTM

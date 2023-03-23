@@ -29,3 +29,18 @@ set_politics = {
 set_popularities = {
 	order = 100
 }
+
+create_faction = State
+add_to_faction = MYS
+add_to_faction = ECO
+add_to_faction = SCS
+add_to_faction = MIL
+add_to_faction = PRH
+
+diplomatic_relation = {
+	country = DUT
+	relation = non_aggression_pact
+	active = yes
+}
+
+non_aggression_pact = DUT

@@ -29,3 +29,12 @@ set_politics = {
 set_popularities = {
 	individualism = 100
 }
+
+create_faction = Merc_pact
+
+add_to_faction = ADS
+add_to_faction = MER
+add_to_faction = VUS
+add_to_faction = BSD
+add_to_faction = CSD
+add_to_faction = HSD

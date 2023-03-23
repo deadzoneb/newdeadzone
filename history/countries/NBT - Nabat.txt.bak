@@ -1,10 +1,10 @@
-capital = 745
+capital = 3
 
-oob = "ECO_2005"
+oob = "NBT_2005"
 
 set_research_slots = 2
 
-recruit_character = ECO_Saharov
+recruit_character = NBT_Captain_Kuznetsov
 
 set_technology = {
 	infantry_weapons = 1
@@ -20,16 +20,22 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = science
+	ruling_party = individualism
 	last_election = "2005.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	science = 100
+	individualism = 100
 }
 
-add_ideas = {
-mobilize_minors
+give_military_access = MDS
+
+diplomatic_relation = {
+	country = MDS
+	relation = non_aggression_pact
+	active = no
 }
+
+non_aggression_pact = MDS

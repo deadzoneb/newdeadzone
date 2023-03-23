@@ -29,3 +29,13 @@ set_politics = {
 set_popularities = {
 	individualism = 100
 }
+
+puppet = VSD
+
+create_faction = Neutral_pact
+add_to_faction = VSD
+add_to_faction = OGP
+add_to_faction = STS
+add_to_faction = TGP
+add_to_faction = SSD
+add_to_faction = LON
