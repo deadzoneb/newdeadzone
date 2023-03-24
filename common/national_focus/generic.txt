@@ -1,5 +1,5 @@
 focus_tree = {
-	id = generic
+	id = generic_focus
 	country = {
 		factor = 1
 	}
@@ -61,7 +61,7 @@ focus_tree = {
 	}
 	focus = {
 		id = political_effort
-		icon = GFX_Icon_CoP_mp_award_climber
+		icon = GFX_goal_generic_demand_territory
 		cost = 10,00
 		x = 19
 		y = 0
