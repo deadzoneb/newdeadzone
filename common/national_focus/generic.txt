@@ -89,6 +89,7 @@ focus_tree = {
 					add_political_power = 150
 					add_stability = 0.2
 					add_war_support = 0.2
+					add_ideas = POL
 				}
 
 	}
@@ -226,6 +227,29 @@ focus_tree = {
 									level = 1
 									instant_build = yes
 								}
+						}
+				}
+
+	}
+	focus = {
+		id = doctrine_effort
+		icon = GFX_Icon_CoP_mp_award_invincible_fury
+		cost = 10,00
+		prerequisite = {
+			focus = army_effort
+		}
+		x = 0
+		y = 2
+		relative_position_id = army_effort
+			search_filters = { FOCUS_FILTER_RESEARCH }
+			available_if_capitulated = yes
+			completion_reward = {
+					army_experience = 5
+					add_doctrine_cost_reduction = {
+							name = land_doc_bonus
+							cost_reduction = 0.5
+							uses = 1
+							category = land_doctrine
 						}
 				}
 
@@ -434,6 +458,23 @@ focus_tree = {
 
 	}
 	focus = {
+		id = political_atack_2
+		icon = GFX_Icon_CoP_mp_award_achilles_heel
+		cost = 10,00
+		prerequisite = {
+			focus = political_atack
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Atack
+							add_idea = MoreAtack
+						}
+				}
+
+	}
+	focus = {
 		id = equipment_effort
 		icon = GFX_Icon_CoP_mp_award_double_shot_double_kill
 		cost = 10,00
@@ -452,29 +493,6 @@ focus_tree = {
 							uses = 1
 							category = infantry_weapons
 							category = artillery
-						}
-				}
-
-	}
-	focus = {
-		id = doctrine_effort
-		icon = GFX_Icon_CoP_mp_award_invincible_fury
-		cost = 10,00
-		prerequisite = {
-			focus = army_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = army_effort
-			search_filters = { FOCUS_FILTER_RESEARCH }
-			available_if_capitulated = yes
-			completion_reward = {
-					army_experience = 5
-					add_doctrine_cost_reduction = {
-							name = land_doc_bonus
-							cost_reduction = 0.5
-							uses = 1
-							category = land_doctrine
 						}
 				}
 
@@ -979,6 +997,59 @@ focus_tree = {
 		y = 1
 			completion_reward = {
 					add_ideas = Defence
+				}
+
+	}
+	focus = {
+		id = political_defence_2
+		icon = GFX_Icon_CoP_mp_award_marksman
+		cost = 10,00
+		prerequisite = {
+			focus = political_defence
+		}
+		x = 16
+		y = 2
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = Defence
+							add_idea = MoreDefence
+						}
+				}
+
+	}
+	focus = {
+		id = political_atack_3
+		icon = GFX_Icon_CoP_mp_award_black_list
+		cost = 10,00
+		prerequisite = {
+			focus = political_atack_2
+		}
+		x = 14
+		y = 3
+			completion_reward = {
+					add_manpower = 60
+					swap_ideas = {
+							remove_idea = MoreAtack
+							add_idea = TheMostAtack
+						}
+				}
+
+	}
+	focus = {
+		id = political_defence_3
+		icon = GFX_Icon_CoP_mp_award_overwhelming_superiority
+		cost = 10,00
+		prerequisite = {
+			focus = political_defence_2
+		}
+		x = 16
+		y = 3
+			completion_reward = {
+					add_manpower = 100
+					swap_ideas = {
+							remove_idea = MoreDefence
+							add_idea = TheMostDefence
+						}
 				}
 
 	}
