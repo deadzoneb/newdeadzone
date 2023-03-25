@@ -4,7 +4,7 @@ state={
 	provinces={
 		3464 4449 5550 12270 12299 
 	}
-	manpower = 9
+	manpower = 11
 	state_category = rural
 	history={
 		owner = CRS

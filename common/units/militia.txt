@@ -27,7 +27,7 @@ minoscus = {
 		max_strength = 60
 		max_organisation = 120
 		default_morale = 1
-		manpower = 50
+		manpower = 2
 
 		#Misc Abilities
 		training_time = 60

@@ -87,7 +87,7 @@ instant_effect = {
 			creator = "REN"
 		}
 		requested_factories = 1
-		progress = 0.50
-		efficiency = 80
+		progress = 0.86
+		efficiency = 100
 	}
 }
