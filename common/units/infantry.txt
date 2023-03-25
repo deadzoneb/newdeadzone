@@ -1,3 +1,7 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
 sub_units = {
 
 	infantry = {
@@ -7,7 +11,7 @@ sub_units = {
 		
 		priority = 600
 		ai_priority = 200
-		active = no
+		active = yes
 
 		type = {
 			infantry
@@ -31,11 +35,11 @@ sub_units = {
 		manpower = 3
 
 		#Misc Abilities
-		training_time = 90
+		training_time = 10
 		suppression = 1.5
 		weight = 0.5
 		
-		supply_consumption = 0.001
+		supply_consumption = 0.03
 	
 		need = {
 			infantry_equipment = 3
