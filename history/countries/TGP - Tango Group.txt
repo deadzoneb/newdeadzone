@@ -1,4 +1,4 @@
-capital = 394
+capital = 232
 
 oob = "TGP_2005"
 

@@ -1,4 +1,4 @@
-capital = 466
+capital = 131
 
 oob = "AVE_2005"
 

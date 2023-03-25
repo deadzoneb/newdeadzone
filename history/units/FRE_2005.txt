@@ -18,11 +18,67 @@ units = {
 		}
 		location = 1381
 		division_template = "Freedom Squad"
-		start_experience_factor = 1.00
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.00
 
 	}
 }	
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2853
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8758
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7277
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7443
+		division_template = "Freedom Squad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+}
 
 add_equipment_production = {
 	equipment = {
