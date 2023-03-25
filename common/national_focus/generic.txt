@@ -238,8 +238,8 @@ focus_tree = {
 		prerequisite = {
 			focus = army_effort
 		}
-		x = 0
-		y = 2
+		x = 1
+		y = 1
 		relative_position_id = army_effort
 			search_filters = { FOCUS_FILTER_RESEARCH }
 			available_if_capitulated = yes
@@ -250,30 +250,6 @@ focus_tree = {
 							cost_reduction = 0.5
 							uses = 1
 							category = land_doctrine
-						}
-				}
-
-	}
-	focus = {
-		id = motorization_effort
-		icon = GFX_Icon_CoP_mp_award_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = army_effort
-		}
-		x = 1
-		y = 1
-		relative_position_id = army_effort
-			bypass = {
-					has_tech = motorised_infantry
-				}
-			search_filters = { FOCUS_FILTER_RESEARCH }
-			available_if_capitulated = yes
-			completion_reward = {
-					add_tech_bonus = {
-							name = motorized_bonus
-							bonus = 3.0
-							technology = motorised_infantry
 						}
 				}
 
@@ -475,6 +451,24 @@ focus_tree = {
 
 	}
 	focus = {
+		id = political_atack_3
+		icon = GFX_Icon_CoP_mp_award_black_list
+		cost = 10,00
+		prerequisite = {
+			focus = political_atack_2
+		}
+		x = 14
+		y = 3
+			completion_reward = {
+					add_manpower = 60
+					swap_ideas = {
+							remove_idea = MoreAtack
+							add_idea = TheMostAtack
+						}
+				}
+
+	}
+	focus = {
 		id = equipment_effort
 		icon = GFX_Icon_CoP_mp_award_double_shot_double_kill
 		cost = 10,00
@@ -505,7 +499,7 @@ focus_tree = {
 			focus = equipment_effort
 		}
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = equipment_effort
 			search_filters = { FOCUS_FILTER_RESEARCH }
 			available_if_capitulated = yes
@@ -521,28 +515,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = mechanization_effort
-		icon = GFX_Icon_CoP_mp_award_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = motorization_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = motorization_effort
-			search_filters = { FOCUS_FILTER_RESEARCH }
-			available_if_capitulated = yes
-			completion_reward = {
-					add_tech_bonus = {
-							name = motorized_bonus
-							ahead_reduction = 2
-							uses = 1
-							category = motorized_equipment
-						}
-				}
-
-	}
-	focus = {
 		id = doctrine_effort_2
 		icon = GFX_Icon_CoP_mp_award_invincible_fury
 		cost = 10,00
@@ -550,7 +522,7 @@ focus_tree = {
 			focus = doctrine_effort
 		}
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = doctrine_effort
 			search_filters = { FOCUS_FILTER_RESEARCH }
 			available_if_capitulated = yes
@@ -573,7 +545,7 @@ focus_tree = {
 			focus = equipment_effort_2
 		}
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = equipment_effort_2
 			search_filters = { FOCUS_FILTER_RESEARCH }
 			available_if_capitulated = yes
@@ -589,28 +561,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = armor_effort
-		icon = GFX_Icon_CoP_mp_award_unknown
-		cost = 10,00
-		prerequisite = {
-			focus = mechanization_effort
-		}
-		x = 0
-		y = 2
-		relative_position_id = mechanization_effort
-			search_filters = { FOCUS_FILTER_RESEARCH }
-			available_if_capitulated = yes
-			completion_reward = {
-					add_tech_bonus = {
-							name = armor_bonus
-							bonus = 1.0
-							uses = 2
-							category = armor
-						}
-				}
-
-	}
-	focus = {
 		id = special_forces
 		icon = GFX_Icon_CoP_mp_award_harvest_time
 		cost = 10,00
@@ -619,9 +569,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = doctrine_effort_2
-		}
-		prerequisite = {
-			focus = armor_effort
 		}
 		x = 1
 		y = 1
@@ -1018,24 +965,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = political_atack_3
-		icon = GFX_Icon_CoP_mp_award_black_list
-		cost = 10,00
-		prerequisite = {
-			focus = political_atack_2
-		}
-		x = 14
-		y = 3
-			completion_reward = {
-					add_manpower = 60
-					swap_ideas = {
-							remove_idea = MoreAtack
-							add_idea = TheMostAtack
-						}
-				}
-
-	}
-	focus = {
 		id = political_defence_3
 		icon = GFX_Icon_CoP_mp_award_overwhelming_superiority
 		cost = 10,00
@@ -1049,6 +978,24 @@ focus_tree = {
 					swap_ideas = {
 							remove_idea = MoreDefence
 							add_idea = TheMostDefence
+						}
+				}
+
+	}
+	focus = {
+		id = political_ad
+		icon = GFX_Icon_CoP_mp_award_skewer
+		cost = 10,00
+		prerequisite = {
+			focus = political_defence_3
+			focus = political_atack_3
+		}
+		x = 15
+		y = 4
+			completion_reward = {
+					add_equipment_to_stockpile = {
+							type = infantry_equipment_0
+							amount = 100
 						}
 				}
 
